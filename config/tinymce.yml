@@ -1,0 +1,9 @@
+toolbar: 
+  - insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | forecolor | lobstertag
+plugins: 
+  - textcolor
+  - lobstertag
+  - visualchars
+  - image
+extended_valid_elements : 
+  - lobstertag

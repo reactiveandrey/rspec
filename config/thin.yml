@@ -1,0 +1,9 @@
+--- 
+timeout: 30
+wait: 30
+max_conns: 4096
+max_persistent_conns: 512
+threaded: true
+no-epoll: true
+socket: /tmp/web_server.sock
+pid: /tmp/web_server.pid

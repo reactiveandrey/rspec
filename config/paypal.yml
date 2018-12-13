@@ -1,0 +1,39 @@
+test: &sandbox
+  mode: sandbox
+  app_id: APP-80W284485P519543T
+  username: lobstermoney_api1.ilobster.it
+  password: 1368689441
+  signature: AXVurlBq-KumfChTO3RoY7pCBywJAMHAeMqbJyKTC.OPTre.YCiLQrvh
+
+production:
+  mode: live
+  app_id: APP-88B49353FV5730246
+  username: payment_api1.ilobster.it
+  password: DT6MFLDNL8R4RWLF
+  signature: AXMH8AlC6p9wyZVd75KQ2q4udwmvAdzZ4UKI19ehY4Gz3klQ0yznpFUj
+
+development:
+  <<: *sandbox
+
+staging:
+  <<: *sandbox
+
+test_payouts:
+  <<: *sandbox
+
+production_payouts:
+  mode: live
+  app_id:
+  username: payment_api1.ilobster.it
+  password: DT6MFLDNL8R4RWLF
+  signature: AXMH8AlC6p9wyZVd75KQ2q4udwmvAdzZ4UKI19ehY4Gz3klQ0yznpFUj
+
+development_payouts:
+  <<: *sandbox
+
+staging_payouts:
+  mode: sandbox
+  app_id:
+  username: lobsterboss_api1.lobster.media
+  password: EYR8QG87DMXE27BU
+  signature: AYTyhP3LytFpjmNmUZt-SEgzN0EjAaf6l74db591ADoOCt7CPPydgIjZ

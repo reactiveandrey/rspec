@@ -1,0 +1,26 @@
+:concurrency: 1
+development: 
+  :concurrency: 1
+staging:
+  :concurrency: 10
+
+production:
+  :concurrency: 20
+
+:queues:
+  - default
+  - [new_content, 5]
+  - [elastic_batches, 8]
+  - [flickr_fetching, 3]
+  - [facebook_fetching, 3]
+  - [priority_fetch, 20]
+  - [priority_new_content, 15]
+  - [mails, 20]
+  - [mailer, 20]
+  - [find_content, 3]
+  - [fetch_content, 2]
+  - [verizon_updates, 3]
+  - [dropbox_updates, 3]
+  - [image_recognition, 1]
+  - stats
+  - content_updates

@@ -1,0 +1,1766 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  views:
+    pagination:
+      prev: '<'
+      next: '>'
+  application:
+    admin_home:
+      Total_content_items_in_database: "Total content items in database"
+      View_more: "View more"
+      View_list: "View list"
+      New_Orders: "New Orders"
+
+    social_login:
+      via_Flickr: "Sign in with Flickr"
+      via_Facebook: "Sign in with Facebook"
+      via_Instagram: "Sign in with Instagram"
+      via_Youtube: "Sign in with Google+"
+      via_Vkontakte: "Sign in with VK"
+
+    home:
+      I_want_to: "I want to..."
+      Buy_content: "Buy content"
+      Thousands_of_photos_and_videos_for_your: "Thousands of photos and videos for your own projects sold by users at $0.99, $1.99, $2.99"
+      Start_as_a_buyer: "Start as a buyer"
+      Sell_content: "Sell content"
+      Add_your_social_accounts: "Add your social accounts, choose and sell your photos and videos as you post them, get rewarded"
+      Start_as_a_seller: "Start as a seller"
+
+  News_title_max_100_symbols: "News title (max 100 symbols)"
+  Due_date_optional: "Due date (optional)"
+
+  content:
+    index:
+      View_list: "View list"
+
+    display:
+      Lobster: "Lobster - social content marketplace"
+      Buy_a_license_at: "Buy a license at https://lobster.media to download Instagram and Flickr photos and videos legally at $0.99, $1.99 or $2.99!"
+      unknown: 'Unknown'
+
+    marketplace:
+      Advanced: "Advanced"
+      Source: "Source"
+      All_sources: "All sources"
+      Photos: "Images"
+      Videos: "Videos"
+      Nearby: "Nearby"
+      Distance: "Distance"
+      Maximum: "Maximum"
+      Time_period: "Time period"
+      Anytime: "Anytime"
+      Day: "Day"
+      Week: "Week"
+      months: "months"
+      Sort_by: "Sort by"
+      Date: "Date"
+      Relevance: "Relevance"
+      Location: "Location"
+      All_news: "All news"
+      There_are_no_photos_or_videos: "There are no photos or videos on Lobster in 500 km around you yet. Be first"
+      to_add: "to add"
+      some_or_search_by_hashtags_and_locations_above: "some or search by hashtags and locations above."
+      Search_results: "Search results:"
+      Back: "Back"
+      Sorry_the_search_is_running_slow_html: "Sorry, the search is running slow! Thanks for your patience. <br/>You may also try reloading the page or using simpler search criteria to make it faster."
+      Sorry_the_search_is_running_slow_Thanks_for_your_patience: "Sorry, the search is running slow! Thanks for your patience."
+      Request_Instagram_and_Flickr_authors: "Request Instagram and Flickr authors at Lobster to post photos and videos from a specific event or place. Your news call will be reviewed by our admin shortly and posted here. This is free for you, only pay when you decide to buy photos or videos, directly to the author. Feel free to promote your call to get more submissions."
+      Submit_a_news_call: "Submit a news call"
+      Order: "Order"
+      List: "List"
+      Choose_new_password: "Choose new password"
+      Passwords_must_match: "Passwords must match"
+      Submit: "Submit"
+      Get_my_coordinates: "Get my coordinates"
+      Clear_location: "Clear location"
+      Previous_portion: "Previous portion"
+      Next_portion: "Next portion"
+      Delete_all_tags: "Delete all tags"
+      New_password: "New password"
+      Verify_password: "Verify password"
+      Type_your_tags_here_Use: "Type your tags here. Use @ to search for usernames."
+      Type_your_tags_here: "Type your tags here."
+      Anywhere: "Anywhere"
+
+    searchbox:
+      Type_your_tags_here_Use: "Type your tags here. Use @ to search for usernames."
+      Advanced: "Advanced"
+      Type_your_tags_here: "Type your tags here."
+      Get_my_coordinates: "Get my coordinates"
+      Clear_location: "Clear location"
+      Anywhere: "Anywhere"
+      Source: "Source"
+      Photos: "Images"
+      Videos: "Videos"
+      Nearby: "Nearby"
+      Relevance: "Relevance"
+      Distance: "Distance"
+      Maximum: "Maximum"
+      Time_period: "Time period"
+      Anytime: "Anytime"
+      Day: "Day"
+      Week: "Week"
+      months: "months"
+      Sort_by: "Sort by"
+      Date: "Date"
+      Popularity: "Popularity"
+      Location: "Location"
+
+    searchclient:
+      Search: "Search"
+      more: "more"
+      Search_results: "Search results:"
+      found: "found"
+      Sort_by: "Sort by:"
+      relevance: "relevance"
+
+    show:
+      ID: "ID"
+      Caption: "Caption"
+      Description: "Description"
+      Source: "Source"
+      Internal_id: "Internal id"
+      API_link: "API link"
+      Username: "Username"
+      File: "File"
+      Url: "Url"
+      Longitude: "Longitude"
+      Latitude: "Latitude"
+      Created: "Created"
+      Tags: "Tags"
+      Deleted: "Deleted"
+      No: "No"
+      Yes: "Yes"
+      Delete_media: "Delete media"
+      Restore_media: "Restore media"
+
+  layouts:
+    mail:
+      Header_Image: "Header Image"
+      LOBSTER_IT_Limited: "LOBSTER IT Limited"
+      Reg_08510890: "Reg. № 08510890"
+      Floor_2Woodberry_Grove_Finchley_London_N12_0DR: "1st Floor, 2 Woodberry Grove, Finchley, London, N12 0DR"
+      Yours: "Yours,"
+      Lobster_The_user_content_marketplace: "Lobster. The user content marketplace."
+      Lobster_Support_Team: "Lobster Support Team"
+      Lobster_Team: "Lobster Team"
+      If_you_do_not_wish_to_receive_these_emails_you_can: "If you do not wish to receive these emails you can"
+      unsubscribe_here: "unsubscribe here."
+    application:
+      Close: "Close"
+      Details: "Details"
+      Report_bad_content: "Report bad content"
+      Sorry_the_purchasing_process_may_not_be_completed: "Sorry, the purchasing process may not be completed at the moment. We are working on this. You may keep browsing the site."
+      Buy_license: "Buy license"
+      Download: "Download"
+      Congratulations: "Congratulations!"
+      You_have_successfully_purchased_a_license: "You have successfully purchased a licence for this photo or video. Your licence agreement and purchase confirmation have been emailed to you."
+      Please_keep_it_for_your_future_records: "Please keep it for your future records. The photo or video will appear in your gallery and can be downloaded again at any time."
+      You_will_be_able_to_download_the_photo_or_video: "You will be able to download the photo or video from your gallery shortly."
+      Terrible_sorry: "Terrible sorry!"
+      It_has_just_been_deleted_by_its_author: "It has just been deleted by its author. Please choose some other photo or video on the marketplace."
+      OK: "OK"
+      Making_social_content_available: "Find and buy photos, videos and music from real people (starting at $0.99). Request a license from anyone with a public account on Instagram, Flickr, DeviantArt, Vine, Twitter and more. Authors: sign up with your social accounts to help us build the world's honest place for social media content together."
+      Instagram_flickr_photos_photo_image_pic_picture: "Instagram, flickr, YouTube, photo, foto, image, video, pictures, buy, download, cheap, free, photostock, marketplace, online, fotolia, 500px, getty, shutterstock, photography"
+      Lobster: "Lobster: the search and marketplace for social media photos and videos"
+      Buy_a_license_at: "Buy a license at http://ilobster.it to download Instagram and Flickr photos and videos legally at $0.99, $1.99 or $2.99!"
+      yes: "yes"
+      Icon: "Icon"
+      Buyer_s_gallery: "Buyer's gallery"
+      E_mail: "Your E-mail"
+      Login: "Log in"
+      Blog: "Blog"
+      About: "About"
+      Sign_up: "Create new account"
+      Sign_in: "Log in"
+      Marketplace: "Marketplace"
+      Sell_content: "Sell content"
+      Profile: "Profile"
+      My_Gallery: "My Gallery"
+      Register: "Register"
+      News: "News"
+      Images: "Photos"
+      Photos: "Images"
+      Videos: "Videos"
+      Photos_and_videos: "Photos & Videos"
+      Explore: "Explore"
+      Featured_galleries: "Featured Galleries"
+      Sell_Content: "Sell Content"
+      Get_Free_Photos: "Sign up to receive 3 fresh, authentic photos from social media users, carefully selected by our editors. You will get them along with a worldwide, royalty-free license in your mailbox every week, at no cost."
+      Get_Free_Photos_Submit: "Inform me!"
+      We_are_sorry_purchasing_functionality_is_currently_not_available_html: "We are sorry, purchasing functionality is currently not available on some mobile browsers. Please use the device’s native browser or visit us from a desktop to make a purchase. We are working on increasing our supported mobile browsers list. You can continue to enjoy the full browsing and <a href=\"/sell-content\">selling</a> functionality with this browser."
+      Confirm_email: "Please confirm e-mail to start selling your photos and videos now"
+      Almost_there_Please_add_your_e_mail_to_receive: "Almost there! Please add your e-mail to receive an activation link. We will need this e-mail for important things like your payments and licenses."
+      Please_enter_valid_email_address: "Please enter valid email address"
+      via_Instagram: "via Instagram"
+      or: "or"
+      I_already_have_an_account: "I already have an account"
+      Passwords_must_match: "Passwords do not match"
+      By_signing_up_you_agree_to_the: "By signing up, you agree to the"
+      We_have_emailed_you_a_link_to_reset_your_password: "We have emailed you a link to reset your password."
+      Log_In: "Log In"
+      My_Account: "Profile"
+      My_Gallery: "My Gallery"
+      Get_link: "Get a confirmation link"
+      Forgot_password: "Forgot password"
+      login_via: "sign in with"
+      Remember_me: "Remember me"
+      Terms_of_Use: "Terms of Use"
+      Back_to_Login: "Back to Login"
+      Wrong_login_or_password: "Wrong login or password"
+      Almost_there_You_just_need_to_click_the_link_in_the_e_mail: "Almost there! You need to click the link we have e-mailed you. This will enable you to select photos and videos to start selling immediately. We just need this to send you payments!"
+      Add_your_Instagram_and_Flickr_accounts: "Add your Instagram, Flickr and Google+ accounts. Next you can choose what to sell."
+      No_thanks: "No, thanks"
+      View_your_photos_and_videos_on_sale: "View your photos and videos on sale"
+      Disconnect_account: "Disconnect account"
+      Disconnect: "Disconnect"
+      Are_you_sure_want_to_disconnect_your_Flickr_account: "Are you sure want to disconnect your Flickr account?"
+      Once_you_disconnect_your_account: "It may take up to 30 minutes for all your content to be deleted. Once you disconnect your account, the photos under this account will be removed from Lobster marketplace and no longer sold."
+      Are_you_sure_want_to_disconnect_your_Instagram_account: "Are you sure want to disconnect your Instagram account?"
+      Account_already_connected: "This account is already connected to Lobster marketplace and can not be used with a different e-mail."
+      You_may_try_one_of_the_following_html: "You may try one of the following: login to your other profile where this account was used before; disconnect Lobster app within your Instagram or Flickr account and try again; or contact us at <span>support@lobster.media</span> if you have issues."
+      OK: "OK"
+      Warning: "Warning"
+      Got_it: "Got it"
+      Help_me: "Help me"
+      Lobster_IT_Limited: "2013—%{current_year} Lobster IT Limited. All rights reserved."
+      Password: "Your Password"
+      Password_again: "Password again"
+      Instagram: "Instagram"
+      Flickr: "Flickr"
+      Youtube: "Google+"
+      Privacy: "Privacy"
+      Terms: "Terms"
+      Cookies: "Cookies"
+      via_Facebook: "via Facebook"
+      via_Flickr: "via Flickr"
+      Sign_Out: "Log Out"
+      Close: "Close"
+      Buy_Subscription: "Buy Subscription"
+
+
+    login:
+      Metronic_Admin_Dashboard_Template: "Metronic Admin Dashboard Template"
+
+    static_page:
+      Lobster: "Lobster"
+      Lobster_The_user_content_marketplace: "Lobster. The user content marketplace. Download others' Instagram and Flickr photos and videos legally for just $0.99. License your Instagram and Flickr photos by connecting to Lobster and adding the #ilobsterit tag."
+      Instagram_flickr_photos_photo_image_pic_picture: "Instagram, flickr, photos, photo, image, pic, picture, buy, sell, download, cheap, free, photostock, marketplace, earn, online, fotolia, 500px, getty, shutterstock, iphone, photography, iphoneography"
+      Lobster_IT_Limited: "2013-%{current_year} Lobster IT Limited. All rights reserved."
+
+  popups:
+    all_popups:
+      Forgot_Do_not_panic: "Forgot? Do not panic"
+      Add_email: "Add email"
+      Sign_up: "Sign Up To Lobster"
+      Add_source_of_content: "Add source of content"
+
+
+  my_content:
+    photo_preview_dialog:
+      Share_to_Facebook: "Share to Facebook"
+      Close: "Close"
+      Earnings_0: "Earnings: 0$"
+      Purchases_0: "Purchases: 0"
+
+    banners:
+      Challenges_on_Lobster: "Challenges on Lobster"
+
+    blank_slate:
+      Get_Started: "Get Started"
+      Link_accounts: "1. Link accounts"
+      Add_your_Instagram_and_Flickr_usernames: "Add your Instagram and Flickr usernames (privacy set to public) to Lobster. Add your PayPal (or create one later) to receive money. The rest is done by us"
+      Add_Instagram: "Add Instagram"
+      Add_Flickr: "Add Flickr"
+      Tag_your_photos_and_videos: "2. Choose your photos and videos"
+      Tag_all_photos_and_videos_you_want_to_sell_with: "All your Instagram or Flickr photos will appear here, so you can select them for sale or use 'Sell all'. You can also hashtag your Instagram photos and videos with #ilobsterit to add them directly as you post."
+      ilobsterit: "#ilobsterit"
+      Get_rewarded: "3. Get rewarded"
+      Done_Get_cash_into_your_PayPal_account_as_you_shoot: "Done! Get cash into your PayPal account as you shoot & post on the go. Track our top tags and challenges, read the blog for tips and earn more."
+
+    gallery:
+      Your_photos_on_marketplace: "Your photos on marketplace"
+      Your_marketplace_activity: "Your marketplace activity"
+      Total_earnings: "Total earnings:"
+      Whats_new: "Whats new"
+      Tags_Wanted: "Tags: Wanted"
+      Previous: "« Previous"
+      Next: "Next »"
+      Disconnect_account: "Disconnect account"
+      Are_you_sure_want_to_disconnect_your_Instagram_account: "Are you sure want to disconnect your %{account_type} account?"
+      Once_you_disconnect_you_account_the_photos_and_videos_under: "It may take up to 30 minutes for all your content to be deleted. Once you disconnect your account, the photos %{extra_text}under this account will be removed from Lobster marketplace and no longer sold."
+      Disconnect: "Disconnect"
+
+    token_tabs:
+      Select_all_pictures: "Sell all current and new content on Lobster"
+
+  orders:
+    blog:
+      Tags_Wanted: "Tags: Wanted"
+
+    buyers_gallery:
+      My_purchased_photos_and_videos: "My purchased photos and videos"
+      You_don_t_have_any_photos_or_videos_purchased_yet: "You don't have any photos or videos purchased yet."
+      Go_ahead_and_try_our: "Go ahead and try our"
+      marketplace: "marketplace"
+      Download: "Download"
+      Your_photo_will_be_available_for_download_shortly: "Your photo will be available for download shortly. The payment is being processed by PayPal."
+      Sorry_the_payment_was_not_successful: "Sorry, the payment was not successful. Please try again."
+      Close: "Close"
+      Buy_license: "Buy license"
+
+  pages:
+    about:
+      About: "About"
+      How_it_works: "How it works"
+      Team: "Team"
+      Contacts: "Contacts"
+      Lobster_is_the: "Lobster is the user content marketplace."
+      We_change_the_way: "We change the way you can use others’ content. We fight against social content stealing. Starting with your Instagram and Flickr photos and videos today."
+      Lobster_is_a_marketplace: "Lobster is a marketplace that connects users of Instagram and Flickr (more to come!) and those who want to legally use their photos and videos."
+      Instructions_to_BUY: "Instructions to BUY photos and videos"
+      Browse_the: "1. Browse the"
+      Search_by_multiple: ". Search by multiple tags, username, geography, and date."
+      Chosen_something: "2. Chosen something?"
+      Sign_up_here: "Sign up here"
+      or_registration_will_start: "or registration will start automatically when you click Buy. You will need your PayPal account. It can be set up during purchase."
+      Done_Instantly_download: "3. Done! Instantly download the photo or video & get your license by e-mail. Get another copy at any time but please don't share with others!"
+      Instructions_to_SELL: "Instructions to SELL photos and videos"
+      Keep_posting_beautiful: "1. Keep posting beautiful pictures and videos to your Instagram or Flickr. Set the privacy settings to public."
+      Sign_up_here: "Sign up here"
+      and_connect_your_Instagram: "and connect your Instagram and Flickr accounts. Tag photos and videos you want to license with #ilobsterit (use Comments in Instagram or Add tags option in Flickr). Everything without #ilobsterit will not appear on Lobster (e.g. your Family)."
+      You_ll_get_cash_into: "3. You'll get cash into your PayPal account, 75% of every purchase (starts at $0.42 after PayPal fee and marketplace commission)."
+      For_now_Lobster_uses_PayPal: "For now Lobster uses PayPal to process payments between the buyer and the seller. Credit card payments are coming soon."
+      Each_photo_and_video: "Each photo and video is sold at a standard price of $0.99 for Instagram, $1.99 for Flickr and addtiional premium of $1 for photos and videos in competitions, challenges and news missions. Charged via PayPal from the buyer’s credit card or PayPal account. For this price you get a full worldwide non-exclusive commercial or editorial royalty-free license."
+      You_download_a_photo_and_video: "You download a photo and video in the maximum dimensions provided by Instagram or Flickr. Please learn more about model & property release if you want to use people or property in your work."
+      Product_QA_Director: "Product / QA Director & Co-founder"
+      Company_director: "Company director"
+      View_LinkedIn_Profile: "View LinkedIn Profile"
+      UX_Director: "UX Director & Co-founder"
+      Company_director: "Company director"
+      CEO_Co-founder: "CEO & Co-founder"
+      Backend_Frontend_Web_Developer: "Backend & Frontend Web Developer"
+      Development_System_Architecture_Director: "Development & System Architecture Director"
+      Co-founder: "Co-founder"
+      Development_Organizational_Culture_Manager: "Development & Organizational Culture Manager"
+      Project_Manager: "Project Manager"
+      Frontend_Web_Developer_Webmaster: "Frontend Web Developer & Webmaster"
+      Frontend_Web_Developer: "Frontend Web Developer"
+      Please_contact_us_at: "Please contact us at"
+      if_you_have_any_questions: "if you have any questions or would like to get in touch."
+      Jobs: "Jobs"
+      We_are_happy_to_hear_from_you: "We are happy to hear from you, if you are interested to join, wherever in the world you may be located. Please send your CV and tell our CEO what you want to do for us at:"
+      Press: "Press"
+      We_ll_be_glad_if_you_write: "We’ll be glad if you write about us!  Please write to"
+      whenever_you_need_facts: ", whenever you need facts or answers about us and we will find the time to respond."
+      Legal_info: "Legal info"
+      Lobster_IT_Limited: "Lobster IT Limited"
+      Company_Number: "Company Number"
+      Date_of_Incorporation: "Date of Incorporation"
+      Registered_address_and_mailing_address: "Registered address and mailing address"
+      Shropshire_House: "Shropshire House"
+      Capper_St: "2-10 Capper St"
+      London: "London"
+
+    cookies:
+      Lobster_uses_cookies: "Lobster uses cookies to enhance your experience at the marketplace and to make it more convenient."
+      Please_refer_to_our_Privacy: "Please refer to our Privacy Policy for the official information on this Website’s data collection and cookies policies. This section provides additional information about the cookies technology to our Users."
+      What_are_cookies: "What are cookies?"
+      A_cookie_also_known_html: "A <strong>cookie</strong>, also known as an <strong>HTTP cookie</strong>, <strong>web cookie</strong>, or <strong>browser cookie</strong>, is a small piece of data sent from a website and stored in the user’s browser while he or she is browsing that website. Every time the user loads the website, the browser sends the cookie back to the server to notify the website of the user's previous activity."
+      In_essence_a_cookie_is: "In essence, a cookie is a simple text file stored on your computer or mobile device by a website’s server and only the same server will be able to read this cookie. Every will contain some anonymous information such as a unique identifier, website name and a digital code."
+      Cookies_were_designed_as: "Cookies were designed as a reliable technology for websites to:"
+      authenticate_the_user: "authenticate the user, keep the user logged in, making your work with the website faster and easier"
+      remember_important_information: "remember important information like favourite items or preferences"
+      analyze_the_user: "analyze the user’s browsing activity and show the most relevant pages, without the need to click through all pages of the site again"
+      gather_analytical_data_to: "gather analytical data to improve the functionality and website experience for all users"
+      When_a_website_does_not_use_cookies: "When a website does not use cookies or when they are turned off by a user, he or she will be treated as a new user every time they move to another page of the website or visit a different website. For instance, a user of such website will have to log in every time he or she browses to another page of the same site."
+      There_are_two_types_of_cookies: "There are two types of cookies:"
+      Session_cookies_are_stored_html: "<strong>Session cookies</strong> are stored only temporarily during a browsing session and are deleted from the user’s device when the browser is closed. We use these cookies, for example, to keep you logged in during your visit"
+      Persistent_cookies_are_saved: "<strong>Persistent cookies</strong> are saved on your computer for a fixed period (usually a year or longer) and is not deleted when the browser is closed. We use persistent cookies to know who you are and build long-term relationship. So that, for example, next time you visit you will get to the most relevant page unlike the first-time visitor who sees the home screen. You can delete our cookies at any time through your browser settings and become a new visitor for us again."
+      Lobster_also_uses: "Lobster also uses ‘analytical’ cookies that allow us to recognise and count the number of visitors and to see how visitors move around the site when they’re using it. This helps us to improve the way our website works, for example, by making sure users are finding what they need easily. Allowing the use of cookies is an enormous help from our users to Lobster as a young company. With your help we can develop the service faster to meet the most of your needs."
+      If_you_don_t_want_the_cookies: "If you don’t want the cookies"
+      Although_cookies_cannot_carry: "Although cookies cannot carry viruses or malware, some users do not like the idea of a website storing information on their computer or mobile due to privacy concerns.  If you prefer, it is possible to block some or all cookies, or delete cookies that have already been gathered. This will likely affect the functions of the websites and remove any personalization features that are provided through cookies."
+      If_you_decide_to_restrict: "If you decide to restrict or block web browser cookies which are set on your device, you can do this by accessing your browser or device settings. Detailed instructions may be found in the help section of your browser."
+      Alternatively_you_may_find: "Alternatively, you may find detailed instructions for various browsers at"
+      More_information: "More information about the cookies can be obtained at"
+      Information_Commissioner: "Information Commissioner’s Office"
+      or: "or"
+      Many_of_the_Lobster_marketplace: "Many of the Lobster marketplace features will be available to the user without the cookies, however your experience will be less smooth and simple than what we have created for you. For example, you are likely to be required to login again every time you are trying to purchase a license for a photo or video you liked, or when going visit your account profile."
+
+    error404:
+      No_catch: "No catch! Lobster has not found anything on this page"
+      Go_back: "Go back to ilobster.it"
+
+    error500:
+      Lobster_is_working_on_html: "Lobster is working on this!</br>We are experiencing an internal server error. Please do come back!"
+      Reloading_the_page_may_help: "Reloading the page may help"
+
+    maintenance:
+      Maintenance_page: "Maintenance page"
+
+    privacy:
+      Lobster_Marketplace: "Lobster Marketplace"
+      Privacy_Policy: "Privacy Policy"
+      Introduction: "Introduction"
+      The_Lobster_website_located_at_html: "The Lobster website located at www.lobster.media and its subdomains and any social networking profiles (together the <strong>“Website”</strong>)  is operated by Lobster IT Limited, a limited company incorporated in England with registered number 08510890, registered at Shropshire House, 2-10 Capper Street, London, WC1E 6JA."
+      We_are_committed_to_the_privacy_html: "We are committed to the privacy and confidentiality of information provided to us by our users.  This Privacy Policy describes our current policies and practices with regard to Personal Data collected by us from you directly and/or through the Website where such Personal Data is protected by the Data Protection Act 1998 (the <strong>“Act”</strong>). "
+      Please_read_the_below_carefully: "Please read the below carefully to understand our views and practices regarding your Personal Data and how we will treat it.  By disclosing your Personal Data to us by using the Website, speaking to us over the telephone or communicating with us by email, you consent to the collection, storage and processing of your Personal Data in the manner stated in this Privacy Policy.  You may be accessing the Website from a computer or mobile phone device and this Privacy Policy governs your use of the Website regardless of the means of access."
+      For_the_purpose_of_the_Act: "For the purpose of the Act, the data controller is LOBSTER IT LIMITED of 1st Floor, 2 Woodberry Grove, Finchley, London N12 0DR which is registered with the ICO with registered number [TBC]. "
+      Defined_Terms: "Defined Terms"
+      The_term_Lobster_html: "The terms <strong>“Lobster”</strong>, <strong>“we”</strong>, <strong>“us”</strong>, <strong>“our”</strong> and <strong>“ours”</strong> when used in this Privacy Policy mean Lobster IT Limited which includes both subsidiaries, divisions, branches, affiliates or companies under the control of Lobster IT Limited. The terms <strong>“you”</strong>, <strong>“your”</strong> and <strong>“yours”</strong> when used in this Privacy Policy mean any user of the Website."
+      Capitalised_terms_not_otherwise: "Capitalised terms not otherwise defined herein shall have the following meanings:"
+      Personal_Data_means_html: "<strong>“Personal Data”</strong> means personally identifiable information about you, including but not limited to your name, job description, health related data, birthday, e‐mail address, certain location data or mailing address."
+      means_this_policy: "means this policy."
+      Collection_of_Personal_Data: "Collection of Personal Data"
+      We_do_not_store_credit_card: "We do not store credit card details nor do we share financial details with any 3rd parties."
+      We_may_collect_store_and_use_the_following_kinds_of_Personal_Data: "We may collect, store and use the following kinds of Personal Data:"
+      if_you_register_as_a_user: "if you register as a user of the Website or receive information or advice from us, you will be asked to complete a form which will require you to provide some or all of your name, address, email address, date of birth and telephone number;"
+      when_you_contact_us_by_email: "when you contact us by email or telephone or through any contact form provided on the Website, we may ask you to provide some or all of the information set out in paragraph (a) above;"
+      we_may_collect_store_and_use_information_about_your_computer: "we may collect, store and use information about your computer, mobile device or other item of hardware through which you access the Website and your visits to and use of the Website (including without limitation your IP address, geographical location, browser/platform type and version, Internet Service Provider, operating system, referral source/exit pages, length of visit, page views, website navigation and search terms that you use); "
+      if_you_access_the_Website_through_a_social: "if you access the Website through a social networking profile, we may collect, store and use the details of that social networking profile and any information contained therein in order to populate any forms you might wish to complete on the Website."
+      We_may_ask_you_to_complete_surveys: "We may ask you to complete surveys and give feedback that we use for research purposes, although you do not have to respond to them."
+      We_reserve_the_right_to_monitor: "We reserve the right to monitor and/or record your communication with us by mail, voice, email or any other form of transmission for the purposes of quality control, security and other business needs.  Any Personal Data contained in such recorded information will be processed in accordance with this Privacy Policy."
+      We_may_also_receive_your_Personal_Data: "We may also receive your Personal Data from content sources & SNS registration sites (e.g. Facebook, Instagram, Flicr) via API, from our service providers, agents, advisers or business partners, including, without limitation, news agencies. "
+      Where_Personal_Data_is_disclosed: "Where Personal Data is disclosed to us by third parties, it is the obligation of the disclosing party to ensure such Personal Data is disclosed with requisite authority and consent and we will process such Personal Data in accordance with this Privacy Policy."
+      Use_of_Personal_Data: "Use of Personal Data"
+      We_process_your_Personal_Data: "We process your Personal Data, and share your Personal Data within Lobster IT Limited.  We ask only for Personal Data that is adequate, requestelevant and not excessive for the purposes for which we use your Personal Data. Some of these purposes may include the following:"
+      to_manage_your_account_and_content: "to manage your account and content that you upload or licence from the Website;"
+      to_process_any_request: "to process any request by you for information or advice;"
+      to_help_diagnose_any_problems: "to help diagnose any problems with our server and administer the Website;"
+      to_improve_your_browsing_experience: "to improve your browsing experience by personalising the Website;"
+      to_enable_you_to_use_the_Website: "to enable you to use the Website;"
+      to_send_you_newsletters: "to send you newsletters and other relevant and targeted promotional communications;"
+      to_deal_with_enquiries: "to deal with enquiries, complaints and feedback from you and our service providers;"
+      to_provide_third_parties: "to provide third parties with statistical anonymised information about our users;"
+      to_send_you_emails_offering: "to send you emails offering you to take part in a survey and/or give feedback; and"
+      to_analyse_and_improve: "to analyse and improve the services offered on the Website."
+      We_will_only_disclose: "We will only disclose your Personal Data to others for specific and limited purposes."
+      Disclosure_of_your_Personal_Data: "Disclosure of your Personal Data"
+      Except_to_the_extent_required_by_any_applicable: "Except to the extent required by any applicable law or governmental or judicial body, or as required to enable a third party to provide its services to us, we will not disclose your Personal Data to any third party."
+      Where_we_do_provide_Personal_Data_to: "Where we do provide Personal Data to third party companies so that they can perform services on our behalf, these services may include payment processing, data analysis, e‐mail delivery, hosting services and customer service.  We require all such third party service providers to maintain the confidentiality of the information disclosed to them and to not use your Personal Data for any purpose other than to provide services to us or on our behalf. "
+      We_may_share_or_transfer_the_information: "We may share or transfer the information in our databases to comply with a legal or regulatory requirement, for the administration of justice, interacting with anti‐fraud databases, to protect your vital interests, to protect the security or integrity of our databases or the Website, to take precautions against legal liability, or in the event of our sale, merger, reorganisation, transfer of business, dissolution or similar event."
+      If_we_sell_or_buy_any_business_or_assets: "If we sell or buy any business or assets, we may disclose your Personal Data to the prospective seller or buyer of such business or assets."
+      Where_appropriate_before_disclosing_Personal_Data: "Where appropriate, before disclosing Personal Data to a third party, we contractually require the third party to take adequate precautions to protect that data and to comply with applicable law."
+      Where_we_store_your_personal_data: "Where we store your personal data"
+      The_Personal_Data_that_we_collect: "The Personal Data that we collect from you may be transferred to, and stored at, a destination outside the European Economic Area (<strong>“EEA”</strong>).  It may also be processed by staff operating outside the EEA who work for us or for one of our suppliers.  By submitting your Personal Data, you agree to this transfer, storing or processing.  We will take all steps reasonably necessary to ensure that your Personal Data is treated securely and in accordance with this Privacy Policy. "
+      All_information_you_provide_to: "All information you provide to us is stored on our secure servers."
+      We_take_the_security_of_your_Personal_Data: "We take the security of your Personal Data very seriously.  In particular we use all reasonable endeavours to ensure that appropriate security measures are in place to protect your Personal Data.  Unfortunately, the transmission of information via the internet is not completely secure and so we cannot guarantee the security of your Personal Data transmitted through the Website; any transmission is at your own risk. Once we have received your information, we will use strict procedures and security features to try to prevent unauthorised access."
+      Your_public_profile: "Your public profile"
+      Once_you_become_a_registered_user_of_the_Website: "Once you become a registered user of the Website, you may provide additional information to your profile on the Website."
+      Providing_additional_information_about_yourself: "Providing additional information about yourself beyond what is minimally required at registration is entirely up to you.  Any information you provide at registration or in your profile section may be used by us as described in our Terms of Use and this Privacy Policy.  You can review the personal information you provide to us and make any desired changes to the information you publish, or to the settings for your account (including your email and contact preferences), at any time by logging in to your account on the Website."
+      Please_be_aware_that_even_after_your_request: "Please be aware that even after your request for a change is processed we may, for a time, retain residual information about you in our backup and/or archived copies of our database."
+      Publically_Accessible_Information: "Publically Accessible Information"
+      We_offer_you_the_opportunity_to_post: "We offer you the opportunity to post, submit and exchange content and information on publicly accessible areas of the Website.  You should exercise caution if you choose to disclose personally identifiable information in a publicly accessible area. "
+      Please_note_that_this_information_may_remain: "Please note that this information may remain indefinitely in the publicly accessible area of the Website.  In addition, other users may be able to view two or more of your individual postings collectively.  You are solely responsible for any information that you disclose and disseminate on publicly accessible areas.  If you have a concern about any personally identifiable information you have posted on any publicly accessible areas and are unable to delete or edit it, please contact us."
+      Anonymous_data_collected_through_the_Website: "Anonymous data collected through the Website"
+      In_addition_to_the_Personal_Data: "In addition to the Personal Data and other information we collect as described above, we use technology to collect anonymous information about the use of the Website.  For example, we use technology to track which pages of the Website our users view.  We also use technology to determine which web browsers our users use.  This technology does not identify you personally; it simply enables us to compile statistics about our users and their use of the Website."
+      We_use_this_anonymous_data_to_improve_the_content: "We use this anonymous data to improve the content and functionality of the Website and our e‐mail updates, to better understand our customers and visitors, and to improve the services we offer."
+      Cookies: "Cookies"
+      Cookies_are_text_files_stored: "Cookies are text files stored, either on a temporary or persistent basis on the hard drive of your computer.  Cookies are used for authenticating, session tracking and maintaining specific information about the use and users of the Website.  Cookies do not damage your computer."
+      The_data_collected_by_cookies_is_anonymous: "The data collected by cookies is anonymous.  You can delete all cookies that are already on your computer's hard drive by searching for files with \"cookie\" in it and deleting them.  In addition, if you want to stop cookies from being stored on your computer, you can edit your browser settings so that cookies are blocked.  Unfortunately, if you block cookies you may not be able to use the full functionality of the Website.  For more information about cookies, please visit:"
+      Web_beacons_consist_of_a_small_string_of_software_code: "Web beacons consist of a small string of software code that represents a graphic image request on a page or email.  There may or may not be a visible graphic image associated with the web beacon and often the image is designed to blend into the background of a page or email.  Web beacons can be used for many purposes - including website traffic reporting, unique visitor counts, advertising auditing and reporting, and personalization.  Web beacons used by www.shop-in-spaces.com collect only anonymous data."
+      In_order_to_improve_the_Website_and_the_services: "In order to improve the Website and the services we offer you, we may use (temporary and persistent) cookies, authorized third parties cookies, web beacons and/or other technologies to collect non-personally identifiable data.  This non-personally identifiable data helps us to track browsing behavior, to create specific or tailor-made offers or advertisements, and to monitor and record the visits and use of the Website. "
+      In_order_to_understand_how_people_use_the_Website: "In order to understand how people use the Website and for marketing analysis and quality improvement purposes, we (and/or third party service providers) may collect, record, process and use on an anonymous basis certain information (including the total number of transactions, viewed pages, referring/exit pages, platform type, date/time stamp information and details like the number and location of mouse clicks on a given page, mouse movements, scrolling activity and the search words you use while being on and using the Website."
+      If_you_register_with: "If you register with us or if you continue to use the Website, you agree to our use of cookies."
+      We_also_use_your_IP_address: "We also use your IP address to help diagnose problems with our server and to administer the Website.  An IP address is a numeric code that identifies your computer on a network, or in this case, the Internet.  Your IP address is also used to gather broad demographic information, such as determining how many of our visitors are from outside of the UK.  We may also perform IP lookups to determine which domain you are coming from (i.e. aol.com, yourcompany.com) to more accurately gauge our users' demographics."
+      Lobster_may_use_log_file_information: "Lobster may use log file information.  Log file information is automatically reported by your browser each time you make a request to access (i.e., visit) a web page or app.  It can also be provided when the content of the webpage or app is downloaded to your browser or device."
+      When_you_use_the_Website: "When you use the Website, our servers automatically record certain log file information, including your web request, IP address, browser type, referring / exit pages and URLs, number of clicks and how you interact with links on the Website, domain names, landing pages, pages viewed, and other such information.  We may also collect similar information from emails sent to our users which then help us track which emails are opened and which links are clicked by recipients.  The information allows for more accurate reporting and improvement of the Website."
+      Device_identifiers: "Device identifiers"
+      We_may_collect_information_from_device_identifiers: "We may collect information from device identifiers.  When you use a mobile device like a tablet or phone to access our Service, we may access, collect, monitor, store on your device, and/or remotely store one or more device identifiers."
+      Device_identifiers_are_small_data_files: "Device identifiers are small data files or similar data structures stored on or associated with your mobile device, which uniquely identify your mobile device.  A device identifier may be data stored in connection with the device hardware, data stored in connection with the device's operating system or other software, or data sent to the device by a third party website or application such as Instagram."
+      A_device_identifier_may_deliver_information: "A device identifier may deliver information to us or to a third party partner about how you browse and use the Website and may help us or others provide reports or personalized content and ads.  Some features of the Website may not function properly if use or availability of device identifiers is impaired or disabled."
+      Data_Integrity_and_Security: "Data Integrity and Security"
+      We_strive_to_maintain_the_reliability: "We strive to maintain the reliability, accuracy, completeness and currency of Personal Data in our databases and to protect the privacy and security of our databases.  The security measures in place on the Website and computer systems, aim to protect the loss, misuse or alteration of the information you provide to us.  We keep your Personal Data only for as long as reasonably necessary for the purposes for which it was collected or to comply with any applicable legal or regulatory requirements, or our data retention policy."
+      We_use_industry_standard_Secure_Sockets_Layer_html: "We use industry‐standard Secure Sockets Layer (<strong>\"SSL\"</strong>) authentication to ensure the confidentiality of sensitive information.  SSL authentication and encryption of the information that you send to us over the internet help protect such online information from third party interception."
+      We_urge_you_to_protect_your_own_privacy: "We urge you to protect your own privacy.  We recommend that you do not share your password with anyone or share your password in an unsolicited phone call or e‐mail."
+      Unfortunately_despite_all_of_our_efforts: "Unfortunately, despite all of our efforts, there is always a risk that third parties may unlawfully intercept transmissions.  For example, we cannot ensure the security of your data during transmission to us or the security of your data on an iPhone, Android (or other telephone device that can use phone applications) or on another computer. This reality is true of all Internet or data transmission use.  As a result, we cannot ensure the security of any information you transmit, and you transmit all information at your own risk."
+      Metadata: "Metadata"
+      Metadata_is_usually_technical_data: "Metadata is usually technical data that is associated with user content.  For example, metadata can describe how, when and by whom a piece of user content was collected and how that content is formatted."
+      Users_can_add_or_may_have_metadata: "Users can add or may have metadata added to their user content including a hashtag (e.g., to mark keywords when you post a photo or video), geotag (e.g., to mark your location to a photo or video), comments or other data."
+      This_makes_your_user_content_more_searchable: "This makes your user content more searchable by others and more interactive. If you geotag your photo or video or tag your photo or video using other's APIs then, your latitude and longitude will be stored with the photo or video and searchable (e.g., through a location or map feature) if your photo or video is made public by you in accordance with your privacy settings. We collect metadata directly and/or from the content source via API."
+      Location_Based_Services: "Location‐Based Services"
+      We_collect_may_collect_various_forms: "We collect may collect various forms of location data, in both instances pertaining to the content you submit: "
+      general_geographic_location_data: "general geographic location data: we collect this information to enable us to accurately display the geographic location of your content on the Website or to enable you to search for content nearby your location on the Website.  We may collect this information directly or through API from content sources;"
+      image_file_data: "image file data: we collect EXIF file metadata. This metadata is usually automatically tagged to your content (for example images/photographs).  We collect and use this information to verify the geo‐location of the content you submit.  We also pass this information to our third party media buyers for the same purpose.  We obtain your consent to collect this data on the registration page of the Website."
+      Inaccurate_Data: "Inaccurate Data"
+      We_encourage_you_to_ensure_that_your_Personal_Data: "We encourage you to ensure that your Personal Data is accurate and kept up to date. Please regularly update any information you have given to us by sending an email to to us.  We will correct, amend or delete any Personal Data that you notify us is inaccurate and notify any third party recipients of necessary changes."
+      Links_to_Third_Party_websites: "Links to Third Party websites"
+      The_Website_may_include_links_to_third_party_websites: "The Website may include links to third party websites.  We are not responsible for the content of third party websites.  Please ensure that prior to using any such website, you have read and understood its privacy policy and terms of use.  These documents will govern your rights and obligations when using the relevant third party website."
+      Your_rights: "Your rights"
+      The_Act_gives_you_the_right_to_ask_us: "The Act gives you the right to ask us not to process your personal data for marketing purposes.  We will usually inform you (before collecting your data) if we intend to use your data for such purposes or if we intend to disclose your information to any third party for such purposes.  You can exercise your right to prevent such processing by checking certain boxes on the forms we use to collect your data.  You can also exercise the right at any time by contacting us at"
+      Access_to_information: "Access to information"
+      The_Act_gives_you_the_right_to_access_information: "The Act gives you the right to access information held about you.  Your right of access can be exercised in accordance with the Act.  Any access request may be subject to a fee of £10 to meet our costs in providing you with details of the information we hold about you."
+      Changes_to_our_Privacy_Policy: "Changes to our Privacy Policy"
+      We_reserve_the_right_to_amend_this_Privacy_Policy: "We reserve the right to amend this Privacy Policy.  Any changes we may make to our Privacy Policy in the future will be posted on this page and, where appropriate, notified to you by e-mail."
+      Contact: "Contact"
+      Questions_comments_and_requests_regarding_this_Privacy_Policy: "Questions, comments and requests regarding this Privacy Policy are welcomed and should be addressed to"
+
+    sorry:
+      Sorry: "Sorry..."
+      Your_country_is_not_supported_yet: "Your country is not supported yet! Check back later!"
+
+    team:
+      Product_QA_Director_Co_founder_html: "Product / QA Director & Co-founder<br>Company director<br>"
+      mobile: "mobile"
+      Lobster_IT_Limited_1st_Floor_html: "Lobster IT Limited<br>1st Floor 2 Woodberry Grove<br>Finchley, London<br>N12 0DR UK<br>"
+      Social_profiles: "Social profiles:"
+      Andrey_is_responsible_for_product: "Andrey is responsible for product development management, agile development (SCRUM master), quality assurance, test management & testing, analytics, technical specifications, system administration, payment systems, competitive technologies and development knowledge keeping"
+      CEO_Co_founder_html: "CEO & Co-founder<br>Company director<br>"
+      Lobster_IT_Limited: "Lobster IT Limited"
+      Olga_is_responsible_for_general_management: "Olga is responsible for general management, concept & business modelling, investor relations, team formation, culture, marketing & finance, including third party management"
+      Maria_is_responsible_for_creating_a_great_user_experience: "Maria is responsible for creating a great user experience, user interfaces and company identity, settingstandard for front-end development and usability, building a clean, simple and beautiful service for our customers"
+      Backend_Frontend_Web_Developer: "Backend & Frontend Web Developer"
+      Michael_is_responsible_for_backend_development: "Michael is responsible for backend development, API integration, payment systems, backend-to-frontend communication, product documentation."
+      Head_of_Development_Architecture_Co_founder": "Head of Development & Architecture<br>Co-founder<br>"
+      Eugene_is_responsible_for_managing: "Eugene is responsible for managing the development process, building system architecture, IT infrastucture, administration & technical documentation."
+      Project_Manager_Development_Organizational_Culture_Manager: "Project Manager, Development & Organizational, Culture Manager"
+      Maria_is_responsible_for_IT_project_management_SCRUM: "Maria is responsible for IT project management & SCRUM, building the customer-centered company culture, team development and supporting our marketing activities."
+      Frontend_Web_Developer_Webmaster: "Frontend Web Developer & Webmaster"
+      Alexander_is_responsible_for_frontend_development: "Alexander is responsible for frontend development, web mastering, HTML5 & Javascript technologies, layouts, visual implementation of the user experience, frontend-to-backend communication."
+      Frontend_Web_Developer: "Frontend Web Developer"
+      Tariq_is_responsible_for_frontend_development: "Tariq is responsible for frontend development, HTML5 CSS3 & Javascript technologies, layouts, visual implementation of the user experience, frontend-to-backend communication."
+
+    terms:
+      Terms_of_Use: "Terms of Use"
+      General_Terms: "General Terms"
+      Introduction_html: >
+        Introduction
+        <ol>
+          <li>
+            We are Lobster IT Limited (<strong>"Lobster"</strong>), a limited company incorporated in England with registered number 08510890 and registered address at 2-10 Capper Street, Wayra UK accelerator, WC1E 6JA London, England.
+          </li>
+          <li>
+            We operate the website located at <a href="https://lobster.media">lobster.media</a> and <a href="http://ilobster.it">ilobster.it</a>, its subdomains and associated social networking profiles (together the "Website"). We also operate the user content marketplace which is accessible via the Website. The Website enables content providers ("Sellers") to license their online content for use by others, and content buyers ("Buyers") to acquire a license to use online content provided by Sellers.
+          </li>
+          <li>
+            Please read these Terms & Conditions (including the License Agreement), (together the <strong>"Terms"</strong>) and our Privacy Policy carefully because they govern your use of the Website.
+          </li>
+          <li>
+            To make these Terms easier to read, the Website and our services are collectively called the <strong>"Services"</strong>.
+          </li>
+          <li>
+            Despite the fact that our domain name is registered as a .media and .it URL, Lobster is a UK company and for the time being the .it web address is used solely for marketing purposes. The use of an .it or .media url does not affect your statutory rights.
+          </li>
+        </ol>
+      Agreement_to_Terms_html: >
+        Agreement to Terms
+        <ol>
+          <li>
+            By using the Services, you agree to be bound by these Terms.  If you do not agree to these Terms, you must not use the Services.  If you are accessing and using the Services on behalf of a company (such as your employer) or other legal entity, you represent and warrant that you have the authority to bind that company or other legal entity to these Terms.  In such circumstances, <strong>"you"</strong> and <strong>"your"</strong> will refer to the relevant company or other legal entity.
+          </li>
+        </ol>
+      Changes_to_Terms_of_Service_html: >
+        Changes to Terms of Service
+        <ol>
+          <li>
+            Lobster may at any time modify these Terms of Service.  We will notify you of any changes to these Terms of Service either by emailing you (at the email address notified by you to us on the Website) or by posting a notice on the Website.
+          </li>
+          <li>
+            By continuing to use the Services and/or the Website after changes to these Terms of Service are made and notified to you, you agree to be bound by such changes.
+          </li>
+          <li>
+            You can review the most current version of our Terms of Service at any time by clicking on the "Terms of Service" link located at the bottom of the Website. The most current version displayed on that page will supersede all previous versions.
+          </li>
+          <li>
+            By using the Website, you represent and warrant that all registration information provided by you is truthful, accurate and complete and you undertake and agree to keep such information up-to-date and current.
+          </li>
+        </ol>
+      Eligibility_html: >
+        Eligibility
+        <ol>
+          <li>
+            Subject to clause 4.2, the Services are available only to, and may only be used by, individuals who are 18 years and older who can form legally binding contracts under English law.  By using the Services, you represent and warrant that you are at least 18 years old. Lobster may, in its sole discretion, refuse to offer access to or use of the Services to any person or entity and change its eligibility criteria at any time.
+            </li>
+          <li>
+            Individuals under the age of 18 must at all times use the Services only in conjunction with and under the supervision of a parent or legal guardian who is at least 18 years of age.  In such a case, the adult is the user and is responsible for any and all activities undertaken by the minor.
+          </li>
+          <li>
+            Due to current limitations, the Website and Services are not bound to be available and cannot be fully used from the following countries:
+            <div class="countries-list">
+              Angola, Anguilla, Armenia, Aruba, Azerbaijan Republic, Benin, Bhutan, Bolivia, Brunei, Burkina Faso, Burundi, Cambodia, Cape Verde, Chad, Comoros, Cook Islands, Democratic Republic of the Congo, Djibouti, Egypt, Eritrea, Ethiopia, Falkland Islands, Gabon Republic, Gambia, Georgia, Guinea, Guinea Bissau, Guyana, Kazakhstan, Kiribati, Kyrgyzstan, Laos, Madagascar, Maldives, Mali, Marshall Islands, Mauritania, Mauritius, Mayotte, Micronesia, Mongolia, Montserrat, Namibia, Nauru, Nepal, Netherlands Antilles, Nicaragua, Niger, Niue, Norfolk Island, Papua New Guinea, Pitcairn Islands, Republic of the Congo, Rwanda, Saint Pierre and Miquelon, Saint Vincent and Grenadines, Samoa, São Tomé and Príncipe, Senegal, Serbia, Sierra Leone, Solomon Islands, Somalia, Sri Lanka, St. Helena, Suriname, Svalbard and Jan Mayen Islands, Swaziland, Tajikistan, Tanzania, Togo, Tonga, Tunisia, Turkmenistan, Tuvalu, Uganda, Ukraine, Vanuatu, Vatican City State, Virgin Islands (British), Wallis and Futuna Islands, Yemen and Zambia.
+            </div>
+          </li>
+          <li>
+            You are not allowed to use Lobster from the countries listed in paragraph 4.3, if you are a resident of one of these countries and/or if you use a bank account in one of these countries.  This restriction is related to the current limitations of our payment processing partner (PayPal), which will not allow its users to receive payments originating in these countries or to or from bank accounts in these countries.  While we are looking to expand the scope of payment providers, it is the current restriction by our provider. We use software which will block access to the Website if you are located in any of these countries. If you breach any restriction in this clause 4.4 you do so at your sole discretion and responsibility, and you may not hold Lobster responsible for any loss or adverse consequences resulting from such use.
+          </li>
+          <li>
+            In particular, if you attempt to sell Content licenses using the Lobster Website to other Users and such Content licenses are purchased, if as a consequence of being located or resident in one of the countries listed above, you are not able to receive the payment for such Content licenses, notwithstanding that you have not received payment the purchase will be considered completed and the rights to use your Content will be granted to the Buyer under the License Agreement.
+          </li>
+          <li>
+            You will not be permitted to revoke access to your Content once purchase of a license to use your Content has been initiated regardless of whether you are able to receive payment.
+          </li>
+          <li>
+            In such circumstances, or in any circumstances where your PayPal account is unable to receive a payment, PayPal and/or Lobster may in its sole and absolute discretion do with the payment for your Content license as it sees fit including without limitation returning the payment to the Buyer’s account or donating it to a charity.  The fee due to Lobster and PayPal fees shall not be reimbursable in any circumstances. Lobster will attempt to notify you at its sole discretion, however, it does not guarantee any communication and it is the Seller’s responsibility to provide an updated account.
+          </li>
+          <li>
+            In addition to the geographical limitations set out in paragraph 4.3, Lobster provides only partial functionality to Users residing in Russia.  Local regulations in Russia prohibiting transactions between Russian residents in a currency other than Russian Rubles mean that we cannot provide the Buyer (license purchasing) functionality to Russian residents.  A Russian resident for the purpose of this clause is any User with a Russian IP address and/or having a Russian PayPal account.  Russian residents can still enjoy the Seller functionality, register at the Website, add Content Sources and sell Licenses to other Users.
+          </li>
+          <li>
+            Lobster is working constantly to expand its geography and payment methods and we aim to cover all countries in the near future.  If you believe that your case is an exception (e.g. you are a UK resident Seller travelling in Ukraine) and that we need to grant you a worldwide access to the Website, please contact us at: <a href="mailto:support@lobster.media">support@lobster.media</a> and we will review your case.  Please note that we will need to have a proof of your residence and/or your ability to receive payments through PayPal in order to review your case.
+          </li>
+        </ol>
+      Nature_of_the_Service_html: >
+        Nature of the Service
+        <ol>
+          <li>
+            The Website is an online venue to allow users who comply with Lobster's policies to display, offer, sell, find and buy licenses for certain digital goods (the “Content”) within a fixed-price and dynamic price format, as well as download the digital goods and receive licenses based on subscriptions and packages and via an API.
+          </li>
+          <li>
+            Lobster is not directly involved in the transaction between Buyers and Sellers and is not a party to any contract between them.  As a result, Lobster has no control over the quality, safety, morality or legality of any aspect of the Content listed, the truth or accuracy of any listing, the ability or title of any Seller to sell any item or the ability of any Buyer to pay for any item.  Lobster does not pre-screen Users or the Content or information provided by Users.  Lobster cannot ensure that a Buyer or Seller will actually complete a transaction. Even though we attempt to help eliminate questionable or copyright infringing content and users, this does not constitute a default part of our services and we can not be held accountable for any discrepancies.
+          </li>
+          <li>
+            Lobster cannot guarantee the true identity, age, and nationality of a User.  Lobster encourages you to communicate directly with potential transaction partners in case of questions, except for specific projects and cases, where such identification is agreed with the Buyer and constitutes part of the special service provided at an additional cost.
+          </li>
+          <li>
+            You acknowledge and agree that Lobster is a venue and as such is not responsible or liable for any Content, including without limitation data, text, information, usernames, graphics, images, photographs, profiles, audio, video, items, and links posted by you, other Users, or outside parties on the Website.  You use the Services at your own risk.
+          </li>
+        </ol>
+      Accuracy_of_Information_html: >
+        Accuracy of Information
+        <ol>
+          <li>
+            Lobster updates the information on the Website regularly.  However, Lobster cannot guarantee or accept any responsibility or liability for the accuracy, currency or completeness of the information on the Website.  Lobster may revise, supplement or delete information, services and/or the resources contained in the Website and reserves the right to make such changes without prior notification to past, current or prospective Users.
+          </li>
+        </ol>
+      Content_html: >
+        <a href="#content" class="inner-link grey-inner-link"></a>Content
+        <ol>
+          <li>
+            Lobster does not claim ownership rights in your Content.
+          </li>
+          <li>
+            You grant Lobster a limited license solely to enable Lobster to use any information or Content with which you supply Lobster solely for the purposes of performing the Services.
+          </li>
+          <li>
+            You grant Lobster a non-exclusive (except when specifically agreed otherwise), worldwide, perpetual, irrevocable, royalty-free, sub licensable (through multiple tiers) right to exercise the copyright, publicity, and database rights (but no other rights) you have in the Content, in any media now known or not currently known, with respect to your Content.
+          </li>
+          <li>
+            You agree to allow Lobster to store or re-format your Content on the Website and to display your Content on the Website in any way that Lobster sees necessary to perform the services and in accordance with these terms and/or the terms of use of API of our partners. Lobster will only use personal information in accordance with Lobster's Privacy Policy.
+          </li>
+          <li>
+            Lobster does not control the Content provided by Users. Lobster is not liable for any loss, harm or upset directly or indirectly caused by any Content.
+          </li>
+          <li>
+            There may be risks dealing with international trade and foreign nationals.  By using the Services, you agree to accept such risks and that Lobster (and Lobster's officers, directors, agents, subsidiaries, joint ventures and employees) is not responsible for any and all acts or omissions of Users on Lobster.  Please use caution, common sense, and practice safe buying and selling when using the Services.
+          </li>
+          <li>
+            Lobster sources User Content available for immediate licensing from social media platforms and third party apps (together the “Sources”) via API or other means of technical integration. This is agreed to and explicitly confirmed by Users when signing up on Lobster. Any such Content should follow the Sources rules and limitations (including their content policies). Users are encouraged to get familiar with the terms and policies of the respective Source before using either the Source or Lobster.
+          </li>
+          <li>
+            Lobster operates a public search of all public accounts’ content available through respective Sources with a possibility to request the author to license the content (‘opt in to Lobster’). Lobster accesses and displays content for its ‘find and request’ functionality without user consent, as API access to public content and, in general, public viewing of any publicly posted content constitutes part of the services the Sources provide to their users. Lobster does not source private content (from private accounts) without prior user (contributor) consent. Lobster does not enable buying a license for content without prior user (contributor) consent.
+          </li>
+          <li>
+            When a Buyer on Lobster is interested in buying a license for content item that does not belong to immediately available (opted in) content from its Sellers, Lobster will request the respective contributor for ‘opt in’ or ‘opt out’ to license the content in question, prior to enabling such transaction. Lobster will communicate the request through any available public (Twitter, Instagram, Facebook, LinkedIn and other) or private (e-mail) channel that we are able to find in the open access or within our database. Lobster may comment on the contributor’s posts for the purpose of requesting a license on behalf of a Buyer.
+          </li>
+          <li>
+            Lobster may use our contributors’ content for the purpose of marketing, communications, featuring it on the blog and in galleries. Whenever Lobster needs to use the content without a watermark and in an original size (that is, except showcasing content on our website to improve purchases), we will buy a license for the specific content.
+          </li>
+          <li>
+            Lobster does not guarantee the compliance of any User Content with the Source terms and rules. It is the User’s own responsibility to ensure that the Content follows Source terms and rules prior to posting, selling or purchasing such Content.
+          </li>
+        </ol>
+      Use_of_the_Website_html: >
+        Use of the Website
+        <ol>
+          <li>
+            The Website and all content displayed thereon are intended for customers of Lobster.  You may not use the Website or the Content for any purpose not related to your business with Lobster.
+          </li>
+          <li>
+            You are specifically prohibited from:
+            <ol>
+              <li>
+                downloading, copying, or re-transmitting any or all of the Website or the Content without, or in violation of, a written license or agreement with Lobster;
+              </li>
+              <li>
+                using any data mining, robots or similar data gathering or extraction methods;
+              </li>
+              <li>
+                manipulating or otherwise displaying the Website or the Content by using framing or similar navigational technology;
+              </li>
+              <li>
+                registering, subscribing, unsubscribing, or attempting to register, subscribe, or unsubscribe any party for any Lobster product or service if you are not expressly authorized by such party to do so; and
+              </li>
+              <li>
+                using the Website or the Content other than for its intended purpose.
+              </li>
+            </ol>
+          </li>
+          <li>
+            By signing up with, browsing, downloading and/or using the Website and/or the Services, you agree not to:
+            <ol>
+              <li>
+                upload, post, e-mail or otherwise send or transmit any material that contains viruses, Trojan horses, worms or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment associated with the Services or the Website;
+              </li>
+              <li>
+                interfere with the servers or networks connected to the Website or to violate any of the procedures, policies or regulations of networks connected to the Website, including these Terms of Service;
+              </li>
+              <li>
+                attempt to reverse engineer or sell, export, license, modify, copy, distribute or transmit the Website to any third party, or jeopardize the correct functioning of the Website, or otherwise attempt to derive the source code of the software (including the tools, methods, processes and infrastructure) that enables or underlies the Website;
+              </li>
+              <li>
+                attempt to gain access to secured portions of the Website to which you do not possess access rights;
+              </li>
+              <li>
+                impersonate any other person while using the Services or Website (though your are permitted to use an alias in order to access the Website on condition that you provide your correct name and details when subscribing and/or paying for any chargeable Service on the Website;
+              </li>
+              <li>
+                conduct yourself in a vulgar, offensive, harassing or objectionable manner while using the Website;
+              </li>
+              <li>
+                resell or export the software or content associated with the Website;
+              </li>
+              <li>
+                use the Website to generate unsolicited advertisements or spam;
+              </li>
+              <li>
+                use any automatic or manual process to search or harvest information from the Website, or to interfere in any way with the proper functioning of the Website;
+              </li>
+              <li>
+                post, upload, publish, submit or transmit any Content that: (i) infringes, misappropriates or violates a third party's patent, copyright, trademark, trade secret, moral rights or other intellectual property rights, or rights of publicity or privacy; (ii) violates, or encourages any conduct that would violate, any applicable law or regulation or would give rise to civil liability; (iii) is fraudulent, false, misleading or deceptive; (iv) is defamatory, obscene, pornographic, vulgar or offensive; (v) promotes discrimination, bigotry, racism, hatred, harassment or harm against any individual or group; (vi) is violent or threatening or promotes violence or actions that are threatening to any person or entity; or (vii) promotes illegal or harmful activities or substances;
+              </li>
+              <li>
+                use, display, mirror or frame the Website, or any individual element within the Website or Services, Lobster's name, any Lobster trademark, logo or other proprietary information, or the layout and design of any page or form contained on a page, without Lobster's express written consent;
+              </li>
+              <li>
+                attempt to probe, scan, or test the vulnerability of any Lobster system or network or breach any security or authentication measures;
+              </li>
+              <li>
+                avoid, bypass, remove, deactivate, impair, descramble or otherwise circumvent any technological measure implemented by Lobster or any of Lobster's providers or any other third party (including another user) to protect the Website, Services or Content;
+              </li>
+              <li>
+                attempt to access or search the Website, Services or Content or download Content from the Website or Services through the use of any engine, software, tool, agent, device or mechanism (including spiders, robots, crawlers, data mining tools or the like) other than the software and/or search agents provided by Lobster or other generally available third party web browsers;
+              </li>
+              <li>
+                send any unsolicited or unauthorized advertising, promotional materials, email, junk mail, spam, chain letters or other form of solicitation;
+              </li>
+              <li>
+                use any meta tags or other hidden text or metadata utilizing a Lobster trademark, logo URL or product name without Lobster's express written consent;
+              </li>
+              <li>
+                forge any TCP/IP packet header or any part of the header information in any email or newsgroup posting, or in any way use the Website, Services or Content to send altered, deceptive or false source-identifying information;
+              </li>
+              <li>
+                collect or store any personally identifiable information from the Website or Services from other users of the Website or Services without their express permission;
+              </li>
+              <li>
+                violate any applicable law or regulation (or do any thing by which Lobster could be deemed to violate any applicable law or regulation); or
+              </li>
+              <li>
+                encourage or enable any other individual to do any of the foregoing.
+              </li>
+            </ol>
+          </li>
+        </ol>
+      Registration_html: >
+        Registration or Sign Up
+        <ol>
+          <li>
+            Registration (identical to ‘Sign Up’) is required to use the Services and the Website in full.  You can register via the Website or through your Account with certain third-party social networking services such as Facebook (each an <strong>"SNS Account"</strong>).  If you choose the SNS Account option we will create your Account by extracting from your SNS Account certain personal information such as your name and email address (and such other personal information that your privacy settings on the SNS Account permit us to access).  Registration via the Website can be performed by adding an e-mail and password. The User is then required to activate their Account via a link sent in a confirmation e-mail. After registration the User can log in into his account with his e-mail and password. Lobster does not guarantee that the services will be available in full while the Account is not confirmed; at the same time Lobster may provide part of the services at its discretion even when the e-mail is yet to be confirmed. It is the user’s responsibility to confirm an e-mail in order to receive important correspondence, including information about their licenses and payments.
+          </li>
+          <li>
+            A User who has logged in to the Website can browse the Website and view the Marketplace, Blog, Sell Content, Account, Portfolio and Profile sections of the Website.
+          </li>
+          <li>
+            By registering and/or logging in to the Website, a User accepts these Terms.  In particular the User acknowledges and agrees that by a combination of:
+            <ol>
+              <li>
+                registering/logging in;
+              </li>
+              <li>
+                adding a Token; and ONE of the following:
+              </li>
+              <li>
+                using #ilobsterit tag on Content posted at Sources,
+              </li>
+              <li>
+                selecting the content for sales in their Profile section (‘My Content’) with a checkbox for a specific photos,
+              </li>
+              <li>
+                enabling or keeping enabled the ‘Sell All’ checkbox in their Profile section (‘My Content’)
+              </li>
+            </ol>
+            he or she allows other Users to buy Licenses for his Content in accordance with these Terms and empowers Lobster to perform its full services with respect to the content in question, including licensing and storage.
+          </li>
+          <li>
+            ‘Sell All’ checkbox may be enabled automatically upon sign up and it is the user’s sole responsibility to uncheck it (turn off) if they wish so.
+          </li>
+          <li>
+            For the users convenience ‘Sell All’ works for all past and future content added to the account (token) in question within the Source. It is the user’s sole responsibility to monitor which of their content gets posted on the Source when and while ‘Sell All’ button is enabled.
+          </li>
+          <li>
+            For the users’ convenience one of the above actions in p 3. is deemed enough to express the users’ consent to license (sell) the respective content.
+          </li>
+          <li>
+            The hashtag in 3.1 may only be removed from within the Source or by removing the Source and can not be unchecked within Lobster due to API limitations.
+          </li>
+          <li>
+            It is important that you provide Lobster with accurate, complete and up-to-date information for your Account.  By registering with the Website you agree to update such information to keep it accurate, complete and up-to-date.  If you do not keep your information up-to-date, Lobster may have to suspend or terminate your Account.  You agree that you won't disclose your Account password to anyone and you undertake to notify us immediately of any unauthorized use of your Account.  You are responsible for all activities that occur under your Account, whether or not you know about them.
+          </li>
+        </ol>
+      Privacy_html: >
+        Privacy
+        <ol>
+          <li>
+            You provide us with information when you register on the Website and provide us with Content.  We also collect information both relating to you (for example on your usage history) and to users of the Website and the Services in general.  Any information that you submit or that we collect when you are using the Website or Services is subject to the Privacy Policy, the terms of which are hereby incorporated into these Terms.
+          </li>
+        </ol>
+      Compliace_html: >
+        Compliace
+        <ol>
+          <li>
+            You agree to comply with all local laws regarding online conduct and acceptable content.  You are responsible for all applicable taxes.  In addition, you must abide by Lobster policies as stated in these Terms as well as all other operating rules, policies and procedures that may be published from time to time on the Website by Lobster, each of which is incorporated herein by reference and each of which may be updated by Lobster from time to time without notice to you.
+          </li>
+        </ol>
+      Itellectual_Property_html: >
+        Itellectual Property
+        <ol>
+          <li>
+            Lobster and/or its licensor(s) are the sole owners of the Website, which includes any software, domains, and content made available through the Website.  The Website is protected by UK and International copyright and other intellectual property laws.
+          </li>
+          <li>
+            Lobster permits you to use the Website for your own personal and commercial use subject to these terms of service and Lobster grants you a limited license solely for that purpose.
+          </li>
+          <li>
+            Without limitation, this means that you may not sell, export, license, modify, copy, distribute or transmit the Website (or any part of it) without Lobster’s prior express written consent.
+          </li>
+          <li>
+            Any unauthorized use of the Website will result in the automatic termination of the limited license granted by us.  Lobster reserves the right to terminate the limited license without notice at any time following an unauthorized use by you of the Website.
+          </li>
+          <li>
+            Lobster and its graphics, logos, icons and service names related to the Website are registered and unregistered trademarks or trade dress of Lobster. They may not be used without Lobster’s prior express written permission.
+          </li>
+          <li>
+            All other trademarks not owned by Lobster that appear in connection with the Website are the property of their respective owners, who may or may not be affiliated with, connected to or sponsored by Lobster.
+          </li>
+        </ol>
+      Limitation_of_Liability_and_No_Warranty_html: >
+        Limitation of Liability and No Warranty
+        <ol>
+          <li>
+            Lobster provides the Services and Website "as is" and without any warranty or condition, whether express, implied or statutory.  Lobster specifically disclaims any implied warranties of title, merchantability, fitness for a particular purpose and non-infringement.  Lobster assumes no liability or responsibility for any errors or omissions in the Website or provision of the Services; any failures, delays or interruptions in the Website; any losses or damages arising from the use of the Services or Website; or any conduct by users of the Services or Website.  Lobster reserves the right to deliver the Services and Website in its sole and absolute discretion.
+          </li>
+          <li>
+            In no event shall Lobster, its shareholders, directors, officers, employees or agents be liable (jointly or severally) to you for loss of use or any special, incidental, indirect or consequential damages arising out of or in connection with the Services and/or Website or these Terms, on any theory of liability, and whether or not advised of the possibility of damage.
+          </li>
+          <li>
+            Lobster does not seek to exclude liability for death or personal injury caused by its negligence, or fraud or fraudulent misrepresentation on the part of Lobster.  If any applicable authority holds any portion of this section to be unenforceable, then liability will be limited to the fullest possible extent permitted by applicable law.
+          </li>
+          <li>
+            From time to time you may use or access services, promotions and websites of third parties.  In using or accessing third party services, promotions and websites, you agree to be bound by the terms of service of such third parties governing their services, promotions and websites and hereby acknowledge that we shall not be responsible for the provision of services, accuracy of promotions or content of websites belonging or operated by third parties.
+          </li>
+          <li>
+            You acknowledge and agree that Lobster is not responsible for the accuracy of any information published on the Website by other Users and does not warrant that any information appearing on the Website is accurate, true or complete.  If you believe that any information appearing on the Website is incorrect, you should flag that information using the flag button on the Website and/or inform Lobster of the information that you consider to be inaccurate.  Lobster specifically excludes liability for any loss, harm, distress or damage suffered by you or any third party as a result of inaccurate information appearing on the Website.
+          </li>
+          <li>
+            Lobster makes no representation that material on the Website is appropriate or available at locations outside of the United Kingdom.  By accessing the Website from outside the United Kingdom, you represent and warrant to Lobster that your use access and use of the Website is in compliance with all applicable local laws.
+          </li>
+        </ol>
+      Indemnity_html: >
+        Indemnity
+        <ol>
+          <li>
+            You agree to indemnify and hold Lobster, its shareholders, directors, officers, employees, agents and partners harmless from and against any third-party claim or cause of action, including reasonable attorneys' fees and court costs, arising, directly or indirectly, out of your use of the Services and/or Website or your violation of any law or the rights of any third party.
+          </li>
+        </ol>
+      Disputes_html: >
+        Disputes
+        <ol>
+          <li>
+            You agree that these Terms of Service and any claim, dispute or controversy arising out of in connection with these Terms of Service or their subject matter or formation (including non-contractual disputes or claims), the Services, the Website, Lobster’s advertising or any related transaction between you and Lobster shall be governed by and construed in accordance with English law.
+          </li>
+          <li>
+            Any dispute or claim arising out of or in connection with such matters (including non-contractual disputes or claims) will be subject to the exclusive jurisdiction of the courts of England and Wales.
+          </li>
+        </ol>
+      Termination_html: >
+        Termination
+        <ol>
+          <li>
+            Lobster may change or discontinue the Services and/or Website at any time without prior notice. We reserve the right to terminate these Terms for any reason, without notice, and these Terms shall automatically terminate in the event that you violate any of the Terms set forth herein (with prejudice to our accumulated rights against you). In the event of any termination, you will immediately cease use of the Services and Website.
+          </li>
+        </ol>
+      General_html: >
+        General
+        <ol>
+          <li>
+            These Terms are agreed between you and us. No person shall have any rights under or connection with these Terms under the Contracts (Rights of Third Parties) Act 1999.
+          </li>
+          <li>
+            If any court or competent authority decides that any term of these Terms is held to be invalid, unlawful or unenforceable to any extent, such term shall, to that extent only, be severed from the remaining terms, which shall continue to be valid to the fullest extent permitted by law.
+          </li>
+          <li>
+            Headings are for reference purposes only and in no way define, limit, construe or describe the extent or scope of such section.
+          </li>
+          <li>
+            Our failure to enforce any provision of these Terms shall not constitute a waiver of that or any other provision and will not relieve you from the obligation to comply with such provision.
+          </li>
+        </ol>
+      Definitions_html: >
+        <a href="#definitions" class="inner-link grey-inner-link"></a>Definitions
+        <ul>
+          <li>
+            <strong>#ilobsterit</strong> &mdash; a specialized service tag that constitutes one of the methods used by Lobster to mark Content which the User wants to be streamed via Source Platform API to the Website to be made available for immediate sale (licensing). By registering with Lobster, accepting these Terms and connecting a Token to his Account the User accepts that using #ilobsterit tag will initiate the Content streaming for licensing via the Website. If you do not agree with this or do not want your Content to be licensed to other users via the Website upon adding this tag, please do not register with the Website; Lobster may amend and change the list of servie tags according to its marketing policies;
+          </li>
+          <li>
+            <strong>Account</strong> &mdash; an account held by a User with the Website;
+          </li>
+          <li>
+            <strong>Buyer</strong> &mdash; a User that purchases from a Seller a license to use the Seller’s Content via the Website;
+          </li>
+          <li>
+            <strong>Content</strong> &mdash; any User created photos, videos, texts, sounds and other intellectual property. For the purpose of these Terms, Content includes any user created photos, videos, texts, sounds and other intellectual property placed by a contributor, either for display on the Source platform (and thus publicly viewable on Lobster), or for immediate licensing availability on Lobster (by signing up, adding a Token and marking the content for sale);
+          </li>
+          <li>
+            <strong>License Agreement</strong> &mdash; the agreement between the Seller and the Licensee (or Buyer acting on behalf of the Licensee) as attached here as Appendix 1;
+          </li>
+          <li>
+            <strong>Licensee</strong> &mdash; Licensee means the person or entity purchasing a license hereunder including the Licensee’s officers, directors, agents, representatives and employees (the Buyer), unless the Buyer acts on behalf of a third party Licensee, in which case the Licensee is the person or entity designated as Licensee on the License/ during the purchasing process;
+          </li>
+          <li>
+            <strong>Licensed Content</strong> &mdash; the Content for which a license has been sold via the Website;
+          </li>
+          <li>
+            <strong>Lobster</strong>, Service, Website &mdash; the company, the website located at <a href="https://lobster.media">www.lobster.media</a> or <a href="http://ilobster.it">www.ilobster.it</a> belonging to Lobster IT Limited, its pages and subdomains, and services provided through the Website
+          </li>
+          <li>
+            <strong>Profile</strong> &mdash; a User’s profile that can be reached by clicking on the User’s name or e-mail in the top right corner of the Website, where the User can add and change personal information, name to be put on license and add, change or remove Tokens and payment accounts (e.g. PayPal e-mail);
+          </li>
+          <li>
+            <strong>Registered user</strong> &mdash; a User that has performed a registration through the Website form or with a third party SNS account in accordance with these terms and Website functionality;
+          </li>
+          <li>
+            <strong>Seller</strong> &mdash; a Registered user that has added at least one Token (connected a social content account) to his Profile, thus explicitly expressing his/her consent to license his/her Content marked with a checkbox, or ‘Sell All’ on Lobster or with #ilobsterit tag through the Source platform;
+          </li>
+          <li>
+            <strong>Source, Content Source, Source platform</strong> &mdash; The Internet sites providing services of sharing social or privately held content, from which Lobster sources Users’ content via API (or other methods of integration) to display Content on behalf of the Sellers for licensing it to the Buyers through the Website, with the Seller’s explicit content in the form of a combination of 1) registering at Lobster; 2) connecting the respective Token (account in the Source platform).
+          </li>
+        </ul>
+      Sellers: "NB! Sellers"
+      Becoming_a_Seller_Adding_Tokens_html: >
+        Becoming a Seller & Adding Tokens
+        <ol>
+          <li>
+            In order to use the Services as a Seller, a User needs to add a respective Token (Source Account) to his Profile, by clicking Edit and logging in to his Account at the Source platform.
+          </li>
+          <li>
+            The User needs to add a payment account, in particular the widely available PayPal account, which is a registered PayPal e-mail, at the moment of adding at least one Token.  If a User does not add an existing PayPal account, the same e-mail as in registration will be automatically used to send payments for any Licensed Content.  It is the User’s sole responsibility to ensure that he is able to use the relevant e-mail to receive payments and Lobster shall not be liable in the event that any payments are not received.  Payment process and User responsibilities are described in the Payments section of these Terms.
+          </li>
+          <li>
+            The Seller can only add a Token to his own account. A Same Token cannot be added to multiple Accounts.
+          </li>
+        </ol>
+      Selling_Content_Licenses_html: >
+        Selling Content Licenses
+        <ol>
+          <li>
+            The Seller, who must be the original owner & author of the Content, sells a Content license directly to a Buyer via the Website.
+          </li>
+          <li>
+            In accordance with p. 10 above, to place the Content available for licensing by a Buyer, the Seller must do one of the following:
+            <ol>
+              <li>
+                use #ilobsterit for all his Content that is available for licensing via the Website. The Content is then automatically streamed to the Website and displayed to potential Buyers in search results.
+              </li>
+              <li>
+                selecting the content for sales in their Profile section (‘My Content’) with a checkbox for a specific photos
+              </li>
+              <li>
+                enabling or keeping enabled the ‘Sell All’ checkbox in their Profile section (‘My Content’)
+              </li>
+            </ol>
+          </li>
+          <li>
+            Only the Seller can tag his Content with #ilobsterit, either in original posts, or in comments (Instagram) or via Add tags function (Flickr). Tags in comments by third parties will be disregarded and Content will not be streamed via the Website.
+          </li>
+          <li>
+            By using #ilobsterit hash tag on his Content posted on Sources, or enabling the Content sales as per 1.2 or 1.3 above otherwise, the Seller confirms and guarantees that:
+            <ol>
+              <li>
+                he or she has in his/her sole, absolute and unfettered discretion chosen to license his Content to Buyers via the Website, accepted these Terms, the rules of sales, fees, privacy and licensing policies of Lobster;
+              </li>
+              <li>
+                he or she understands that the license & rights to use his or her Content can be purchased by any registered User of the Website until the Content is removed and that this right cannot be revoked by the Seller after or during the purchasing process has started, except where the Seller can physically prove that the Buyer has infringed the licensing rules or intends to do so;
+              </li>
+              <li>
+                there are no restrictions preventing the Seller from licensing the Content (including without limitation any applications of laws or regulations, or third party Terms of use); and
+              </li>
+              <li>
+                He or she has not concluded, on paper, electronically or on any other medium, any exclusive licensing agreement or other contract, preventing him or her from licensing the Content via the Website.
+              </li>
+            </ol>
+          </li>
+          <li>
+            The Seller confirms his or her consent to the display of their PayPal and account name to any Buyer who initiates a license purchase in respect of the Seller’s Content
+          </li>
+        </ol>
+      Content_ownership_Licensing_agreement_html: >
+        Content ownership & Licensing agreement
+        <ol>
+          <li>
+            The Seller guarantees that he or she is the sole owner of the Content.  The Seller undertakes to license the Content to any Buyer in accordance with the terms of the Licensing Agreement.
+          </li>
+        </ol>
+      Information_representation_Restrictions_html: >
+        Information representation & Restrictions
+        <ol>
+          <li>
+            The Seller undertakes to present only true information about the Content, including the date, location and people represented, and use only relevant tags, hashtags, descriptions, geographic coordinate, dates reflecting the true nature, location and subject of the Content. The Seller may not use fake, irrelevant tags and other metadata e.g. with the purpose of maximizing Content appearance in the search results at the Website.
+          </li>
+          <li>
+            The Content should not contain any images restricted by Lobster, the Source or applicable laws.
+          </li>
+          <li>
+            The Content should respect all applicable copyright laws and intellectual property laws, and should not violate those in any way. In particular:
+            <ol>
+              <li>
+                Content must NOT include any brand names, logos, registered designs or trademarks (including without limitation where you have recreated the logo, photographed it, or altered it) except where the owner of the respective brand has given written permission for the Content to be used or has otherwise instructed in writing the Seller to make the branded Content available. For example, a Seller cannot use a photo of a watch if the brand name of the watch is legible without the permission of the brand;
+              </li>
+              <li>
+                the Content item must NOT be based on any other Content item, unless allowed by the licensing agreement of the base (re-created) Content item;
+              </li>
+              <li>
+                the Seller must NOT upload items that have been decompiled or otherwise reconstructed from another item, unless allowed by the licensing agreement of the base Content item;
+              </li>
+              <li>
+                the content must NOT include an item that uses free or purchased components from any other source UNLESS a User has a license to do so;
+              </li>
+              <li>
+                the content must NOT use government or military property – for example you cannot submit an item that contains a presidential seal or military insignia;
+              </li>
+              <li>
+                the Seller must NOT use photos, videos or sounds in your files UNLESS he has an explicit license and permission to resell them. – The only photographs/videos/sounds allowed in files are those that are:
+                <ol>
+                  <li>
+                    created by the Seller; or
+                  </li>
+                  <li>
+                    purchased or acquired under an appropriate license that allows use in an item for sale.
+                  </li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      Permissions_and_releases_html: >
+        <a href="#releases" class="inner-link grey-inner-link"></a>Permissions and releases
+        <ol>
+          <li>
+            The Seller represents and warrants that he or she has obtained all relevant permissions to license any Content, including but not limited to execution of any Model Release and/or Property Release.
+          </li>
+          <li>
+            A Model Release is a legal release signed by each person represented in a photograph or video granting permission to use or publish the photograph or video using such person (or persons). A sample model release form may be found attached hereto as Appendix 2 and Users of the Website should use a similar form for their projects.  This is the form referred to herein as a "Model Release". This release is intended for use by models over the age of 18.
+          </li>
+          <li>
+            A Minor Model Release (an example of which is attached hereto as Appendix 2) should be used for models under the age of 18.  It contains language referring to the model (who is a minor) in the third-person, and requires signature by a parent or other legal guardian of the model.  A release which is not signed by a parent or guardian affords no legal protection to the publisher.  No image or video should be uploaded to the Website showing a minor model in a state of undress.
+          </li>
+          <li>
+            A Property Release is a legal release signed by the owner of property used in a photograph or video granting permission to use or publish the photograph or video in one form or another. A sample property release form is attached hereto as Appendix 2 and Users of the Website should use a similar form for their projects.
+          </li>
+          <li>
+            If you are including the depiction of recognizable private property on video, photograph, or a traced illustration, you will need a signed location release from the property owner.
+          </li>
+          <li>
+            Users do not need a release for public property, such as government buildings (although you  may run into problems just from photographing/videoing them, for security reasons!). For images of private property — and particularly of objects that are closely identified with specific people —  photographers are urged to secure a release.  Most animals in zoos are the property of the zoo and usually cannot be used for commercial purposes without the consent of the zoo.
+          </li>
+          <li>
+            In case paper forms are not available, a User may consider using an electronic release App, such as:<br />
+            <a href="http://www.themodelreleaseapp.com/">http://www.themodelreleaseapp.com/</a><br />
+            <a href="https://itunes.apple.com/us/app/easy-release-model-release/id360835268?mt=8">https://itunes.apple.com/us/app/easy-release-model-release/id360835268?mt=8</a><br />
+            <a href="https://play.google.com/store/apps/details?id=com.applicationgap.easyrelease&hl=en">https://play.google.com/store/apps/details?id=com.applicationgap.easyrelease&hl=en</a><br />
+          </li>
+          <li>
+            Lobster does not provide any advice in relation to the validity and appropriateness of any release and shall not be liable in respect of any claim or loss suffered by reliance on any information in this section (or on the forms of release attached hereto).
+          </li>
+          <li>
+            If a user has obtained a model release (or property release) in any appropriate form as per above, the user is kindly requested to mark such content with an #model_release (or #property_release) hashtag to signal to the Buyer that such content may be used for commercial purposes with the respective permissions
+          </li>
+          <li>
+            Lobster is not responsible for checking or obtaining model releases and can not be held accountable for their availability and/or true or false tagging by the author;
+          </li>
+          <li>
+            However, Lobster may undertake, with the use of its technology, an attempt to identify recognizable people faces in the image. In the case of identifiable faces (or logos, or landmarks in the photo) Lobster may, at its own discretion, do one of the following:
+            <ul>
+              <li>
+                Remove such content from the search results of the marketplace automatically, permanently or until resolved with the author
+              </li>
+              <li>
+                Flag and ask the author to provide the model release or permission to use trademarks or landmarks images in question
+              </li>
+              <li>
+                Initiate an e-mail request for a formal Model Release to the author
+              </li>
+              <li>
+                Initiate contact with the person(s) in the photo through their public profiles (Facebook, Instagram and such) to request them for a model release and relevant permissions
+              </li>
+            </ul>
+          </li>
+          <li>
+            If the content item contains the face of an author or his children (for whom he or she has the right to otherwise provide a minor release), they are considered as having permission automatically. That is, any such photos are subject to an auto-model release by the author regarding the author’s own photos or those of his minors.
+          </li>
+        </ol>
+      Editorial_and_commercial_use_html: >
+        <a href="#editorialuse" class="inner-link grey-inner-link"></a>Editorial and commercial use
+        <ol>
+          <li>
+            Any, likeness, or depiction sold via the Website, containing an easily recognized person or prominent, trade-mark protected property must have attached to it the correct forms prior to being uploaded to the Website.
+          </li>
+          <li>
+            By accepting these Terms a Seller agrees to provide all necessary information about any Model Release and Property Release in respect of Content and /or copies of such documents for the Buyer’s records upon the Buyer’s request.
+          </li>
+          <li>
+            A Seller further agrees that, unless he has obtained a Model Release and/or Property Release where he is required by the Buyer according to applicable laws and the use cases described in these Terms, the Seller is deemed to be licensing the relevant Content under an editorial license. If the Seller has obtained, stores and is able to provide the evidence of all Model Releases and Property Releases, or if these are not required according to applicable laws and the use cases described in these Terms (e.g. there are no models and private property in the Content), the Seller may license the Content to the Buyer under a commercial use license.
+          </li>
+          <li>
+            The Seller is encouraged to tag his Content with the respective tags: <span class="orange">#editorialuse</span>  (meaning the Content can be used for Editorial use and that any required Model Release and/or Property Release has not been obtained); <span class="orange">#modelrelease</span> (meaning that all necessary Model Releases have been obtained by the Seller and may be provided to Buyers upon request); <span class="orange">#propertyrelease</span> (meaning all necessary Property Releases have been obtained by the Seller and may be provided to Buyers upon request). A Seller not use the two <span class="orange">#modelrelease</span> or <span class="orange">#propertyrelease</span> tags if he has obtained releases only partially.
+          </li>
+          <li>
+            It is at the same time strongly advised that a Buyer, who wants to purchase a commercial use license for Content via the Website from a Seller contacts the Seller via any available public profile in order to ensure that the Seller has obtained all required Model Releases and Property Releases.  Lobster does not collect any Model Releases or Property Releases and Lobster does not provide any warranty or confirmation that a Seller has obtained any required Model Releases and Property Releases.
+          </li>
+          <li>
+            Lobster may, upon request, help the Buyer solicit the model release verifications from the Seller or their models at an additional cost.
+          </li>
+          <li>
+            Lobster does not otherwise, as per general service terms, bear any responsibility for the content in question having a model or property release and any damages caused to either of the parties. However, Lobster may at its own discretion undertake to differentiate, eliminate, flag or mark content in question and request authors and models for a release confirmation. Lobster also provides an opportunity to complain for unsolicited model permission through its ‘complain’ button.
+          </li>
+          <li>
+            For any Content, which may require Model Release or Property Release under applicable law or by these Terms, and for which he is not sure a copy of Model Release and/or Property Release has been obtained and/or verified, a Buyer should consider only the use under editorial license / editorial use only. This does not concern any Content that does not contain property or people and, therefore, will not require Model or Property release for commercial use. It is the Buyer’s responsibility to make sure he/she is in accordance with the legislation when using the Content and to prevent any damages, coordinate with the Seller or make the Seller liable for any damages that may occur otherwise, holding Lobster completely with no liability for any such events, damages or loss, unless a specific verification service has been purchased.
+          </li>
+          <li>
+            For the purposes of these Terms, the following terms shall have the following meanings:
+            <ul>
+              <li>
+                <strong>Commercial Use</strong>:  any media in relation to which money exchanges hands. Money could be paid for the subject of the photograph/footage/media or the media itself. Wholesale, retail, and professional uses of photography would fall under this definition. The commercial photographic world could include: advertising photography - photographs made to illustrate and usually sell a service or product.
+              </li>
+              <li>
+                  <strong>Editorial Use</strong>: when an image is used in conjunction with, and to illustrate, a news related story or any non-commercial text demanding imagery. Examples include magazines, newspapers, features and books. When deciding on the editorial use of the content and considering privacy laws, a User should ask the following questions:
+                  <ol>
+                    <li>
+                      does there exist "a reasonable expectation that one could be photographed by the general public without the person's knowledge"?
+                    </li>
+                    <li>
+                      is there ‘newsworthiness’ of the subject? Editorial use of a photograph is found in a newsworthy item. Courts traditionally have defined public interest or newsworthiness in liberal and far reaching terms. It is not limited to dissemination of news in the sense of current events, but extends far beyond that to include all types of factual, educational and historical data, or even entertainment and amusement, concerning interesting phases of human activity in general.
+                    </li>
+                    <li>
+                      what is the relationship between the photographer and the subject? The special relationship between the photographer and the person that hired him has been upheld in court cases, especially those involving weddings.
+                    </li>
+                    <li>
+                      how much "orchestration" was necessary in order to capture the photo?  The idea is that the more involved the photographer and subject are in coordinating how photos are taken, the more "invasive" the photographer is on the privacy rights of the subject. If the subject is directed in a controlled situation, he is no longer acting on his own accord. He is doing what he is told to do. As a result photos of him may not necessarily be representative of him. Even if he is agreeing to be photographed, he still maintains some rights of privacy.
+                    </li>
+                  </ol>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      Deleting_source_content_or_ilobsterit_tag_html: >
+        <a href="#deletion" class="inner-link grey-inner-link"></a>Deleting source content or #ilobsterit tag, unchecking the content for sales from Lobster
+        <ol>
+          <li>
+            When a Seller deletes certain Content from the Sources he has connected with a Token in his profile, a license for this Content will no longer be available for purchasing a license via the Website and the Content will stop appearing in the search results on the Website. Lobster does not guarantee that such Content will be removed immediately. License purchasing processes, already initiated at the moment of the deletion of the Content, may be completed by any Buyer. Due to technical limitations, at least one new license purchase may be allowed before Lobster is able to completely stop licensing the Content in question on the Website.
+          </li>
+          <li>
+            When a Seller deletes #ilobsterit tag from any Content that has previously been tagged with #ilobsterit in the Source, a license for this Content will no longer be available for purchasing via the Website and the Content will stop appearing in the search results on Lobster. Lobster does not guarantee that the Content will be removed immediately. License purchasing processes, already initiated at the moment of the #ilobsterit tag removal, may be completed by any Buyer. Due to technical limitations, at least one new purchase WILL be allowed before Lobster is able to completely stop licensing such Content on the Website. A Seller can restore such Content to the Website by adding #ilobsterit tag again.
+          </li>
+          <li>
+            The Seller can also uncheck the Content from their Profile section (My Content) or uncheck the Sell All checkbox in the respective section, whenever this is the way the content has been placed on sale. Lobster does not guarantee that the Content will be removed immediately. License purchasing processes, already initiated at the moment of the content removal, may be completed by any Buyer. Due to technical limitations, at least one new purchase may be allowed before Lobster is able to completely stop licensing such Content on the Website. A Seller can restore such Content to the Website by checking the respective checkbox or Sell All checkbox.
+          </li>
+          <li>
+            Sell All checkbox may be automatically turned on during the sign up process and it is the user’s own responsibility to control and monitor what content is placed and removed from sale with the Sell All and individual checkboxes. #ilobsterit hashtag and their combination.
+          </li>
+          <li>
+            Content that has already been licensed via the Website will remain licensed to the Buyer under the License Agreement. In order to provide a Buyer with the Buyer Gallery and Delayed Download services, the Content will also be saved in Lobster’s database for an indefinite period of time and displayed to any Buyer who has obtained a license for it in such Buyer’s Gallery. The Content will not be used by Lobster for any other purposes other than to provide the Services to any Buyer who has previously purchased a license for the Content via the Website. The Seller acknowledges and agrees by accepting these Terms that a copy of licensed Content will be stored on the Website together with its metadata, including username, tags at the moment of purchase, date and place associated with the Content. The Seller confirms that this measure, required for the Service provision, does not in any way violate or contradict his privacy rights and the Privacy Policy.
+          </li>
+        </ol>
+      Changing_Tokens_revoking_access_terminating_the_sales_html: >
+        Changing Tokens, revoking access & terminating the sales
+        <ol>
+          <li>
+            When a User deletes a Token or changes a Token to a new one through his Profile on the Website, all Content associated with this Token will be removed from the Website and will no longer appear in Lobster search results for licensing to potential Buyers. Lobster does not guarantee that the Content will be removed immediately. License purchasing processes, already initiated at the moment of the Token removal or change, may be completed by any Buyer. To restore Content to the Website a User should add the Token to his profile again, provided that #ilobsterit tag has been kept for this Content in the Source, or otherwise check the respective checkbox or Sell All checkbox in My Content section of the Profile.
+          </li>
+          <li>
+            When a User revokes access for Lobster App (removes Token) through his profile settings in the Source, all Content associated with this Token will be removed from the Website and will no longer appear in Lobster search results for licensing to potential Buyers. Lobster does not guarantee that the Content will be removed immediately. License purchasing processes, already initiated at the moment of the Token removal or change, may be completed by any Buyer. When a Token is removed by means of revoking access externally, at least one new license purchase for every piece of Content WILL be completed before Lobster is able to completely stop streaming the Content for licensing on the Website. To restore Content for licensing via the Website a User should add the Token to his Profile, re-granting Lobster App access to his Profile in the Source; provided that #ilobsterit tag has been kept for this Content in the Source, or otherwise check the respective checkbox again or Sell All checkbox in My Content section of the Profile.
+          </li>
+        </ol>
+      Communication_with_buyers_html: >
+        Communication with the Buyer
+        <ol>
+          <li>
+            A Seller undertakes to use reasonable endeavours to respond to requests from Buyers regarding available releases and commercial use as described above.
+          </li>
+          <li>
+            A Seller agrees to respond to any inquiries regarding Content ownership, potential intellectual property rights infringement, truthfulness of the metadata provided with the Content and other legal matters directly to the Buyers, other Users of the Website or official authorities.
+          </li>
+          <li>
+            A Seller may contact Buyers directly for any requests regarding the proper use of Content under the License Agreement, potential intellectual property rights infringement, unlawful use and special requests directly via public information available about the Buyer.  Any disputes between a Seller and a Buyer should be solved directly without recourse to Lobster.
+          </li>
+        </ol>
+      Proof_of_ownership_html: >
+        Proof of ownership
+        <ol>
+          <li>
+            A Seller undertakes to provide proof of his ownership of intellectual property rights for the Content made available by him for licensing via the Website when requested by a Buyer, legal authorities, a court or any other person.
+          </li>
+        </ol>
+      Claims_to_and_from_Buyers_Lobster_indemnity_html: >
+        Claims to and from Buyers, Lobster indemnity
+        <ol>
+          <li>
+            A Seller undertakes to communicate with Buyers and attempt to resolve any issues or claims directly.  The Seller undertakes and agrees to indemnify and hold harmless Lobster against any loss or costs relating to any dispute and undertakes not to seek to involve Lobster in any process or dispute.
+          </li>
+        </ol>
+      Legislation_and_tax_html: >
+        <a href="#tax" class="inner-link grey-inner-link"></a>Legislation and tax
+        <ol>
+          <li>
+            By accepting these Terms and becoming a Seller, the Seller undertakes all responsibility to comply with applicable local and international laws when selling his Content via the Website.
+          </li>
+          <li>
+            The Seller confirms that he is solely responsible for declaring any his earnings made via the Website and paying all resulting taxes in any applicable jurisdiction.  The Seller understands that earnings made via the Website constitute a part of his regular annual income for tax purposes and may be subject to income tax in his country as well as sales taxes in jurisdictions in which his Content is provided. In the UK, please check with HMRC at <a href="http://www.hmrc.gov.uk/vat/start/schemes/basics.htm">http://www.hmrc.gov.uk/vat/start/schemes/basics.htm</a>.  Lobster is not responsible for collecting any local tax on behalf of the Seller and does not undertake to provide any control or assistance in this process.
+          </li>
+          <li>
+            The Seller hereby indemnifies and holds Lobster harmless against all claims or liability asserted against Lobster arising out of or in connection with any breach by you or anyone acting on your behalf of any of the local legislation and tax procedures.  Lobster may not be held responsible for any loss or damage arising from a User’s lack of knowledge, inaction, hesitation or otherwise inability to pay the respective income taxes in due course and manner.
+          </li>
+          <li>
+            Lobster is subject to the UK and EU VAT (MOSS system), therefore VAT is added to the country price, based on the local rate. Despite the fact that Lobster currently only charges 25% in a commission / service fee, the legislation requires Lobster to add VAT to the total price of a Content item.
+          </li>
+        </ol>
+      Fees_Revenues_html: >
+        <a href="#revenues" class="inner-link grey-inner-link"></a>Fees & Revenues
+        <ol>
+          <li>
+            The Seller receives 75% of the purchase amount (from 0.75 USD for a one-off purchase including PayPal fees) when selling a single non-exclusive license via the Website at the fixed prices. The prices are fixed at the minimum of a $0.99+VAT or its equivalent in the local currency for a standard Instagram photo, $1.99 for a standard Flickr photo, and the price may grow automatically or manually with the (a) quality of a photo or video; (b) rating of the author; (c) demand for a photo at the Website's descretion.
+          </li>
+          <li>
+            Furthermore, Lobster at its own discretion may set the discounts, special prices and subscription credits for a photo under:
+            <ul>
+              <li>
+                multi-item subscriptions and limited license subscriptions
+              </li>
+              <li>
+                API integrations with third party platforms for a limited license
+              </li>
+              <li>
+                Other forms of special sales
+              </li>
+            </ul>
+          </li>
+          <li>
+            In the case of which, the Seller will receive 75% of the resulting price for an item. By agreeing to these Terms you agree to participate in the subscription program and package program.
+          </li>
+          <li>
+            If you wish to withdraw from the subscription program, we may provide you with this opportunity on an exceptional basis, please send an e-mail to <a href="mailto:support@lobster.media">support@lobster.media</a>. However, we encourage you to participate in the subscription program as it increases your visibility to a potential buyer.
+          </li>
+          <li>
+            We may also occasionally integrate with Premium partners, which may be able to offer higher prices for selling content to their customer base. In this case the price will be communicated to the selected Premium Seller by email or otherwise and the respective % of price sharing between Seller, Lobster and Partner will be set up.
+          </li>
+          <li>
+            The Seller covers PayPal transaction fees for realizing the total transaction involved, in accordance with conditions described herein and at PayPal.com.  Please refer to PayPal general payment fees <a href="https://www.paypal.com/webapps/mpp/paypal-fees">https://www.paypal.com/webapps/mpp/paypal-fees</a> and International payments fees <a href="https://www.paypal.com/cgi-bin/marketingweb?cmd=_display-xborder-fees-outside&countries=">https://www.paypal.com/cgi-bin/marketingweb?cmd=_display-xborder-fees-outside&countries=</a> for details. In general, the PayPal fee will be up to 33% per license purchase depending on your country and currency, unless you turn on Micropayments. However, the fees may differ depending on the country of the Seller and the Buyer.  We are constantly working to make payments transfer between Users less costly and may update payment options and links to respective fees from time to time.
+          </li>
+          <li>
+            In order to minimize your PayPal fees and maximize your revenue, you may consider joining PayPal’s Micropayments program, which will reduce the fees paid to PayPal to about $0.09 per transaction depending on your country and currency.  Switching on Micropayments requires 2 steps: 1) Upgrade to Premium account (this does not involve any additional fees). Log into your PayPal account and go to My Account, Overview, Account Type, Upgrade. 2) Click Contact Us at the bottom of the page in your PayPal account and request PayPal team to turn on Micropayments for your account. Please note that this may result in different transaction fees. Lobster is not responsible for any resulting transaction fee changes or amended process with PayPal.  Please refer to PayPal itself for any clarifications or questions.
+          </li>
+          <li>
+            Payouts
+            <ol>
+              <li>
+                To avoid the fees and loss on both sides, Lobster may choose to deposit the Seller’s income till the end of a calendar month at its own or Seller’s discretion and make the necessary pay outs in the end of the month. Lobster may set the minimum cumulative amount to be paid out, and the threshold will be set up $10 or more. The Seller is entitled to view or request the current balance form Lobster.
+              </li>
+              <li>
+                With this respect, unless otherwise agreed by the parties in writing, the Company may remit payments due to you no later than thirty (30) days after the end of each calendar month in which the applicable fees are received. Payment shall be in PayPal or in the other form you select when you register for the Services, or as subsequently updated as permitted by the Services. Payments shall only be made in those months in which the amount due to you totals at least $10 and when payment has been requested. Unpaid amounts due shall accrue until the next month in which the amount due is at least $10 or its equivalent. Lobster reserves the right to withhold payment or charge back to your account any amounts otherwise due to us under this Agreement, or amounts due to any breach of this Agreement by you, pending the Company's reasonable investigation of such breach. To ensure proper payment, you are solely responsible for providing and maintaining accurate contact and payment information associated with your account, which includes without limitation applicable tax information, if required. If we believe that we are obligated to obtain tax information and you do not provide this information to us after we have requested it, we may withhold your payments until you provide this information or otherwise satisfy us that you are not a person or entity from whom we are required to obtain tax information. Any third-party fees related to returned or canceled payments due to a contact or payment information error or omission may be deducted from the newly issued payment. You agree to pay all applicable taxes or charges imposed by any government entity in connection with your participation in the Services. If you dispute any payment made hereunder, you must notify the Company in writing within thirty (30) days of such payment. Failure to so notify Iconfinder shall result in the waiver by you of any claim relating to such disputed payment. Payment shall be calculated solely based on records maintained by the Company. No other measurements or statistics of any kind shall be accepted by the Company or have any effect under this Agreement. We may withhold any taxes or other amounts from payments due to you as required by law.
+              </li>
+            </ol>
+          </li>
+          <li>
+            Additional Services
+            <ol>
+              <li>
+                Lobster may offer additional services and charges, which may be attributed to Lobster (e.g. verification) or/and Seller (exclusive rights) depending on the service.
+              </li>
+            </ol>
+          </li>
+          <li>
+            Currency Conversions
+            <ol>
+              <li>
+                Lobster operates in multiple currencies and the conversions are done by automated algorithms within search and payment systems. Lobster may not be held accountable for any discrepancies resulting in exchange rate differences or exchange rates volatility.
+              </li>
+            </ol>
+          </li>
+        </ol>
+      No_refund_by_Lobster_html: >
+        Refunds
+        <ol>
+          <li>
+            Lobster will not provide refunds of any commissions or transaction fees, except for special cases agreed between Lobster and the Seller, or required as required by applicable laws.  Lobster will not refund any transaction payment fees even where a commission refund is made.  Lobster does not undertake any responsibility for and does not participate in any negotiations or refund request between any Seller, a Buyer and the payment platform (PayPal).
+          </li>
+          <li>
+            Any unused images, items, credits, packages and subscriptions will not be refunded or returned to the Buyer in any circumstances
+          </li>
+          <li>
+            If you require a change of name on account, subscription holder or licensee, please do so via Profile section or  by sending us an e-mail to <a href="mailto:support@lobster.media">support@lobster.media</a>.
+          </li>
+        </ol>
+      Buyers: "NB! Buyers"
+      Becoming_a_Buyer_html: >
+        Becoming a Buyer
+        <ol>
+          <li>
+            Any registered and logged in User may become a Content Buyer and initiate a Content license purchase for any displayed and available Content via the Website.
+          </li>
+        </ol>
+      Making_Payments_html: >
+        Making Payments
+        <ol>
+          <li>
+            Lobster currently uses PayPal to process all payments.  The Buyer is encouraged to set up a PayPal account in advance, however, if he does not have a PayPal account, an account can be created directly during the purchasing process.  Please check PayPal website for availability, currencies and terms of payments in advance <a href="https://www.paypal.com/worldwide/">https://www.paypal.com/worldwide/</a>.
+          </li>
+          <li>
+            When PayPal is used, its payment page is initiated automatically at the moment of purchase.  A Buyer needs to use his PayPal account (e-mail) and password in the PayPal popup window to complete the payment.  For repeat purchase / logged in PayPal user only a password is required.  The Seller’s account is pre-filled automatically so the Buyer is not required to fill any payment details. Lobster does not, however, guarantee that the functioning of PayPal will follow the same process in future. Please refer to the PayPal website for more information at any time.
+          </li>
+          <li>
+            Lobster may add other payment methods at its discretion, including Braintree, Stripe, credit card acquirers and other. The payment fee is always distributed between Lobster and the Seller, unless otherwise stated (added) during purchase.
+          </li>
+          <li>
+            Lobster Sells (Facilitates Sales on behalf of the Seller):
+            <ul>
+              <li>
+                one-off purchased licenses
+              </li>
+              <li>
+                packages of content licenses (5, 10, etc)
+              </li>
+              <li>
+                subscriptions
+              </li>
+              <li>
+                API integration subscriptions
+              </li>
+              <li>
+                Premium verification and search services, as agreed by the Buyer
+              </li>
+            </ul>
+          </li>
+          <li>
+            For Subscriptions and packages, Lobster may charge the Buyer in advance and allow downloads within the agreed limit in the moment of purchase, distributing Seller’s revenues, Lobster commission, Partner commission and payment fees & taxes in the end of calendar month or no later than 30 days after the end of calendar month.
+          </li>
+        </ol>
+      Subscription_Plans_html: >
+        Subscription plans
+        <ol>
+          <li>
+            The intended use of Subscription Plans  is for the subscriber to pay for access to the full collection of content indexed on Iconfinder for immediate use as covered by the license of the content  in question. The subscriber is not allowed to download content using the Subscriptions with the intention of making a local collection of content mimicking the Lobster service - neither through a manual nor in any way automated process. Lobster can at any time introduce and enforce mechanisms that prevent large amounts of content being downloaded in a manner deemed unintended by Lobster
+          </li>
+        </ol>
+      Billing_Policies_html: >
+        Billing Policies
+        <ol>
+          <li>
+            Certain aspects of the Services may be provided for a fee or other charge. If you elect to use paid aspects of the Services, you agree to the pricing and payment terms as we may update them from time to time. You shall pay all applicable fees, as described on the Website in connection with such Services selected by you. The Company reserves the right to change its price list and to institute new charges at any time, upon notice to you, which may be sent by email or posted on the Website. Your use of the Services following such notification constitutes your acceptance of any new or increased charges.
+          </li>
+          <li>
+            All information that you provide in connection with a purchase or transaction or other monetary transaction interaction with the Service must be accurate, complete, and current. You agree to pay all charges incurred by users of your credit card, debit card, or other payment method used in connection with a purchase or transaction or other monetary transaction interaction with the Service at the prices in effect when such charges are incurred. You will pay any applicable taxes, if any, relating to any such purchases, transactions or other monetary transaction interactions. You may cancel your account with the Company at any time; however, there are no refunds for cancellation. In the event that the Company suspends or terminates your account or this Agreement for any reason, you understand and agree that you shall receive no refund or exchange for any Content or Services, any credits you have saved, any license or subscription fees for any portion of the Services, any content or data associated with your account, or for anything else.
+          </li>
+          <li>
+            Lobster will send you a monthly invoice for the respective subscription plan, package or service, if this is required by the respective service. VAT invoices are available upon request.
+          </li>
+          <li>
+            Lobster is registered for VAT in the UK and charges respective UK and EU VAT rates.
+          </li>
+        </ol>
+      Proper_use_of_content_html: >
+        Proper use of content
+        <ol>
+          <li>
+            The Buyer guarantees that he will only use licensed Content in accordance with the License Agreement. It is the Buyer’s sole responsibility to control the proper use of the licensed Content by him or on his behalf.  Lobster takes no liability for any loss or damage to any person as a result of improper use of Content, breach of the License Agreement or breach of any applicable laws by the Buyer.
+          </li>
+        </ol>
+      Single_User_html: >
+        Single User and Non-Transferability
+        <ol>
+          <li>
+            Lobster operates on a per-user basis. The Buyer represents, warrants and undertakes that he (or a person or legal entity on whose behalf he is acting), will be the only User to use any Content, for which a license is purchased in a single transaction. For company use, every employee of a company must have a separate account (attached to the company account) to use the Content. Even if, in accordance with the User Profile, the name on the license is a company, each employee must have purchased a separate license to use a separate copy of any Content. It is not allowed to copy, e-mail or otherwise transfer any Content between users or licensees or licensee’s employees, agents and representatives.
+          </li>
+          <li>
+            An agent of the Licensee may have access to the Licensee’s account and licenses if acting on his sole behalf and in his sole interests.
+          </li>
+        </ol>
+      Permissions_html: >
+        Permissions
+        <ol>
+          <li>
+            Permission may be required to use certain Content for commercial purposes. Although Lobster requests Sellers to provide relevant permissions and informational tags, it is the Buyer’s responsibility to ensure or arrange that all necessary permissions have been obtained for a particular commercial use.
+          </li>
+          <li>
+            Please see Model Release and Property Release Sections for further details of the different permissions.
+          </li>
+        </ol>
+      Fees_Prices_Currencies_html: >
+        <a href="#fees" class="inner-link grey-inner-link"></a>Fees, Prices & Currencies
+        <ol>
+          <li>
+            The single price of one license for Content purchased via the Website starts at $0.99 for a standard photo and can grow according to license type, content quality, content demand and additional services added, at the Website's discretion. The price may be decreased in the subscription plans at Lobster’s discretion. This price includes the cost of the license itself, Lobster fees and PayPal fees.
+          </li>
+          <li>
+            The Buyer pays the price via Lobster. Lobster fees currently constitute 25% of every transaction (including any VAT). Lobster may change, adjust and amend the fees at any time in its sole and absolute discretion. Lobster may provide packages, subscriptions, API integrations and other pricing mechanisms at its own discretion.
+          </li>
+          <li>
+            Transactions may be initiated in USD, GBP or local currencies based on the Buyer location. Lobster uses conversion mechanisms and public tools at its own discretion and may not be held liable.
+          </li>
+          <li>
+            For the purposes of the Sale of Goods Act 1979 and the Consumer Protection (Distance Selling) Regulations 2000, no refunds or cancellations are provided in respect of any purchase by a Buyer of any license. This is because all Content Licenses purchased can be immediately used by the Buyer.
+          </li>
+        </ol>
+      License_Agreement: "License Agreement"
+      This_Agreement_governs_the_terms_html: "This Agreement governs the terms by which Buyers and Licensees at Lobster marketplace obtain the right to use photographic, illustrations, animations, video, footage, and other media content provided by Sellers at Lobster Marketplace through the website located at <a href=\"https://lobster.media\">www.lobster.media</a>  (the <strong>“Website”</strong>). This Content License Agreement is in addition to the Terms of Use applicable to the Website and to the Privacy Policy that all Users providing content to or downloading content through the Website have previously entered into. In the event of any inconsistency between this Agreement and the Terms of Use (wherein this Agreement is incorporated), the terms of this Agreement shall govern."
+      Background_html: >
+        Background
+        <ol>
+          <li>
+            This is a fairly lengthy document, and it contains many important provisions that affect your rights and obligations.  By accepting the Terms or otherwise signifying your acceptance, you accept this Agreement either for yourself or on behalf of your employer or the entity that is identified as the member account holder, and agree to be bound by its provisions.
+          </li>
+          <li>
+            If you are accepting on behalf of your employer or the entity that is the member account holder, you represent and warrant that you have full legal authority to bind your employer or such other entity. If you do not have such authority or you do not accept or agree with these terms, do not accept the Agreement and do not download the Content.
+          </li>
+          <li>
+            This Agreement is set up as a user-determined document where you will choose to enter into either a standard commercial royalty-free content license (the <strong>“Commercial License”</strong>) or an editorial use only license where use of Content is restricted to editorial materials only  (an <strong>“Editorial License”</strong>).  You willingly select a “Commercial License” or an “Editorial License” based on the provisions of the Terms and Conditions, intended use and the Content characteristics and available permissions or releases.
+          </li>
+          <li>
+            Definitions for the purpose of this Agreement (in addition to the definitions in the Terms):
+            <ul>
+              <li>
+                <strong>Copying or Copy</strong> means any form of reproduction of the whole or part of any Licensed Content, through any medium and by any means, and includes without limitation the adaption, alteration, distortion, manipulation and cropping of the Licensed Content, and the creation of a derivative work from the Licensed Content;
+              </li>
+              <li>
+                <strong>Editorial Content</strong> means Licensed Content which relates to events that are newsworthy or of public interest and which is licensed for use in an editorial manner;
+              </li>
+              <li>
+                <strong>Intellectual Property Rights</strong> means all intellectual and industrial property rights of whatsoever nature (including without limitation all copyright, names, logos, trademarks, the Website design and its ‘look and feel’, text, documents, content, selection and arrangement of elements, databases, organisation, graphics, photographs and images, compilation, magnetic translation, digital conversion, computer codes contained in the Website) and similar or analogous rights (whether or not registered, whether present, future or contingent, and including without limitation all renewals, extensions, revivals and accrued rights of action and all pending applications), existing in any jurisdiction and all rights to apply for acquisition of the same;
+              </li>
+            </ul>
+          </li>
+        </ol>
+      Commercial_License_Terms_html: >
+        <a href="#commerciallicense" class="inner-link grey-inner-link"></a>Commercial License Terms
+        <ol>
+          <li>
+            The Seller grants the Licensee (the Buyer or another Licensee which is named on the license and on whose behalf the Buyer purchases a license via the Website to use the Content) a perpetual, non-exclusive, non-transferable worldwide royalty-free license to use the Content for the Permitted Uses (as defined below).  All other rights in and to the Content, including, without limitation, all copyright and other intellectual property rights relating to the Content are retained by the Seller of the Content.
+          </li>
+          <li>
+            Only the Licensee is permitted to use the Content, although the Licensee may transfer files containing Content or Permitted Derivative Works to his/her clients, printers, or ISP for the purpose of reproduction for Permitted Uses, provided that such parties shall have no further or additional rights to use the Content and cannot access or extract it from any file you provide.  The Licensee may install and use the Content in only one location at a time, although subject to the Prohibited Uses and the other terms of this Agreement, the Licensee is entitled to utilize the Permitted Uses an unlimited number of times.  The Licensee may physically transfer the Content and its archives from one location to another, in which case he/she may use the Content at the new location instead.
+          </li>
+        </ol>
+      Permitted_Uses_html: >
+        <a href="#permitteduse" class="inner-link grey-inner-link"></a>Permitted Uses
+        <ol>
+          <li>
+            Subject to the restrictions described under Prohibited Uses below, the following are <strong>“Permitted Uses”</strong> of Content:
+            <ol>
+              <li>
+                advertising and promotional projects, including printed materials, product packaging, presentations, film and video presentations, commercials, catalogues, brochures, promotional greeting cards and promotional postcards, subject to the limited circulation and audience for a standard license;
+              </li>
+              <li>
+                entertainment applications, such as books and book covers, magazines, newspapers, editorials, newsletters, and video, broadcast and theatrical presentations, subject to the limited circulation (print run) for a standard license;
+              </li>
+              <li>
+                online or electronic publications, blogs, websites and presentations, subject to the limited circulation and audience for a standard license;
+              </li>
+              <li>
+                prints, posters (i.e. a hardcopy) and other reproductions for personal use or promotional purposes specified above, subject to the limited circulation and audience for a standard license;
+              </li>
+              <li>
+                allowed uses of the Content in items for resale, license, or other distribution, including: cards, stationery items, stickers, or paper products,  posters, calendars, mugs, or mousepads, t-shirts, apparel items, games, toys, entertainment goods, or framed artwork, subject to the limited circulation and audience for a standard license;
+              </li>
+              <li>
+                electronic templates for e-greeting or similar cards, electronic templates for web or applications development, PowerPoint or Keynote templates, screensavers, and email or brochure templates, subject to the limited circulation and audience for a standard license;
+              </li>
+              <li>
+                unlimited number of reproductions, if not limited otherwise herein; and
+              </li>
+              <li>
+                any other uses approved in writing by the Seller.
+              </li>
+            </ol>
+          </li>
+          <li>
+            The right to produce the electronic merchandise in no way grants any rights to the Licensee or any recipient of the electronic merchandise  in any intellectual property or other rights to the Content.  The Licensees and Users agree to indemnify Lobster, its representatives and related parties from any cost, liability, damages or expense incurred by any of them relating to or in connection with any of the electronic merchandise.
+          </li>
+        </ol>
+      Limitations_html: >
+        Limitations:
+        <ol>
+          <li>
+            The Standard license is limited to the following usage as per above uses:
+            <ul>
+              <li>
+                Printed circulation below 100k copies
+              </li>
+              <li>
+                Online media under 50k daily unique views;
+              </li>
+              <li>
+                Broadcasting below 1 mln viewers
+              </li>
+              <li>
+                Offline mediums (banners) under 50k daily unique views each
+              </li>
+            </ul>
+          </li>
+          <li>
+            API Integrations limitations
+            <ul>
+              <li>
+                API integration purchases may be limited additionally based on the contract with the Partner Platform
+              </li>
+              <li>
+                Lobster may limit the usage of API packages within the Platforms only, that is, the content may not be downloaded to the user’s hardrive and can be used online only
+              </li>
+            </ul>
+          </li>
+          <li>
+            Extended Licenses
+            <ul>
+              <li>
+                Extended licenses may be requested and purchased additionally for larger print runs, circulations, broadcasting and viewings, as well as exclusivity may be requested at <a href="#support@lobster.media">support@lobster.media</a>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      Prohibited_Uses_html: >
+        <a href="#prohibiteduse" class="inner-link grey-inner-link"></a>Prohibited Uses
+        <ol>
+          <li>
+            The Licensee may not do anything with the Content that is not expressly permitted in the preceding section or permitted in writing by the Seller.  For greater certainty, the following are “Prohibited Uses” and the Licensee may not:
+            <ol>
+              <li>
+                use the Content in a fashion that is considered by the general public or legal authorities (acting reasonably) as or under applicable law is considered pornographic, obscene, immoral, infringing, defamatory or libelous in nature, or that would be reasonably likely to bring any person or property reflected in the Content into disrepute;
+              </li>
+              <li>
+                use or display any Content that features a model or person in a manner
+                <ol>
+                  <li>
+                    that would lead a reasonable person to think that such person uses or personally endorses any business, product, service, cause, association or other endeavour; or
+                  </li>
+                  <li>
+                    except where accompanied by a statement that indicates that the Content is being used for illustrative purposes only and any person depicted in the Content is a model, that depicts such person in a potentially sensitive subject matter, including, but not limited to mental and physical health issues, social issues, sexual or implied sexual activity or preferences, substance abuse, crime, physical or mental abuse or ailments, or any other subject matter that would be reasonably likely to be offensive or unflattering to any person reflected in the Content, unless the Content itself clearly and undisputedly reflects the model or person in such potentially sensitive subject matter in which case the Content may be used or displayed in a manner that portrays the model or person in the same context and to the same degree depicted in the Content itself;
+                  </li>
+                </ol>
+              </li>
+              <li>
+                to the extent that source code is contained within the Content, reverse engineer, decompile, or disassemble any part of such source code;
+              </li>
+              <li>
+                remove any notice of copyright, trade-mark or other proprietary right from any place where it is on or embedded in the Content;
+              </li>
+              <li>
+                sub-license, re-sell, rent, lend, assign, gift or otherwise transfer or distribute the Content or the rights granted under this Agreement;
+              </li>
+              <li>
+                or post a copy of the Content on a network server or web server for use by other users;
+              </li>
+              <li>
+                use or display the Content in an electronic format that enables it to be downloaded or distributed via mobile devices or shared in any peer-to-peer or similar file sharing arrangement;
+              </li>
+              <li>
+                use Content that may be reasonable identified by the Licensee in accordance with these Terms and Conditions as Editorial Use Content, requiring an Editorial License,  for any commercial, promotional, endorsement, advertising or merchandising use.  For further clarification, Editorial Use of Content means use relating to events that are newsworthy or of general interest and expressly excludes any advertorial sections (i.e. sections or supplements featuring brand and/or product names or sections or supplements in relation to which you receive a fee from a third-party advertiser or sponsor);
+              </li>
+              <li>
+                if the Content is reproduced on a social media platform or other third party website, the rights granted herein shall automatically be revoked in the event that the platform website seeks to exploit purported rights to the Content contrary to the terms of this Agreement.
+              </li>
+            </ol>
+          </li>
+        </ol>
+      Editorial_License_html: >
+        <a href="#editoriallicense" class="inner-link grey-inner-link"></a>Editorial License
+        <ol>
+          <li>
+            Whenever in accordance with the Terms herein, the Content is identified by the Licensee as suitable for editorial use and for editorial use only, - in particular, whenever the Content includes models or property in the newsworthy context and for which no releases have been obtained, the Licensee should consider Content as licensed under the Editorial License.
+          </li>
+          <li>
+            For the purpose of Editorial License the same conditions apply as for Commercial License herein with additional limitation on the permitted use. The only permitted use for Editorial License is:
+            <ol>
+              <li>
+                Editorial Use of Content, which means use relating to events that are newsworthy or of general interest and expressly excludes any advertorial sections (i.e. sections or supplements featuring brand and/or product names or sections or supplements in relation to which you receive a fee from a third-party advertiser or sponsor);
+              </li>
+              <li>
+                Editorial Use: when an image is used in conjunction with, and to illustrate, a news related story or any non-commercial text demanding imagery. Examples include magazines, newspapers, features and books. When deciding on the editorial use of the content and considering privacy laws, a User should ask the following questions:
+                <ol>
+                  <li>
+                    does there exist "a reasonable expectation that one could be photographed by the general public without the person's knowledge"?
+                  </li>
+                  <li>
+                    is there ‘newsworthiness’ of the subject? Editorial use of a photograph is found in a newsworthy item. Courts traditionally have defined public interest or newsworthiness in liberal and far reaching terms. It is not limited to dissemination of news in the sense of current events, but extends far beyond that to include all types of factual, educational and historical data, or even entertainment and amusement, concerning interesting phases of human activity in general. However, a User needs to be careful when deciding on the newsworthiness of the subject.
+                  </li>
+                  <li>
+                    what is the relationship between the photographer and the subject? The special relationship between the photographer and the person that hired him has been upheld in court cases, especially those involving weddings.
+                  </li>
+                  <li>
+                    how much "orchestration" was necessary in order to capture the photo?  The idea is that the more involved the photographer and subject are in coordinating how photos are taken, the more "invasive" the photographer is on the privacy rights of the subject. if the subject is directed in a controlled situation, he is no longer acting on his own accord--he's doing what he's told to do--so photos of him may not necessarily be representative of him. Even if he's agreeing to be photographed, he still maintains some rights of privacy.
+                  </li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      Responsibilities_of_Parties_html: >
+        Responsibilities of Parties
+        <ol>
+          <li>
+            The Licensee will be responsible for the acquisition of any permissions, licences, software, telecommunications lines and equipment to enable the Licensee to receive the Licensed Content and/or to retrieve the Licensed Content from the Website.
+          </li>
+          <li>
+            The Licensee shall examine all Licensed Content for possible defects (digital or otherwise) before sending any Licensed Content for Copying.  Lobster shall not be liable for any loss or damage suffered by the Licensee or any third party, whether directly or  indirectly, caused by any alleged or actual defect in any Licensed Content or its caption or in any way from its Copying.
+          </li>
+          <li>
+            The Licensee shall:
+            <ol class="ol-alpha">
+              <li>
+                take all necessary measures to safeguard the Intellectual Property Rights of the Seller in the Licensed Content;
+              </li>
+              <li>
+                be solely responsible for determining and obtaining before publication any release,  consents or licenses required for any proposed use of the Licensed Content;
+              </li>
+              <li>
+                take all necessary steps to ensure that the Licensed Content and the Licensee’s use  thereof complies with all laws, registrations, Directives and guidelines, and the principles  enunciated in the Press Complaints Commission Code of Practice;
+              </li>
+              <li>
+                ensure that all copies of the Editorial Licensed Content bear the copyright symbol &copy;  accompanied by relevant author’s name (as applicable) and the year of first publication of the Licensed Content;
+              </li>
+              <li>
+                use its best efforts to ensure that any third party to whom the Licensee makes the licensed Content available: (i) abides by the terms and conditions of this Licence; and (ii)  does not Copy, redistribute, retransmit, publish or republish or otherwise exploit the Licensed Content except as permitted hereunder;
+              </li>
+              <li>
+                if any Licensed Content (other than Editorial Content) features a model or property inconnection with a subject that would be unflattering or controversial to a reasonable person, accompany each such use with a statement that indicates that the Licensed Content is being used for illustrative purposes only, and any person depicted in the Licensed Content (if any) is a model;
+              </li>
+              <li>
+                maintain a strong firewall to safeguard against unauthorised access to the Licensed  Content.
+              </li>
+            </ol>
+          </li>
+        </ol>
+      Termination_html: >
+        Termination
+        <ol>
+          <li>
+            This Agreement is effective until it is terminated.  The Licensee can terminate the Agreement by destroying the Content and any Permitted Derivative Works, along with any copies or archives of it or accompanying materials (if applicable), and ceasing to use the Content for any purpose.  The Agreement also terminates without notice from the Seller if at any time the Licensee fails to comply with any of its terms. Upon termination, the Licensee must immediately (i) cease using the Content and for any purpose; (ii) destroy or delete all copies and archives of the Content or accompanying materials.
+          </li>
+          <li>
+            The Seller reserves the right to elect at a later date to revoke or amend the license granted by this Agreement and replace the Content with an alternative for any reason.  Upon notice, sent to the address or contact information provided by the Buyer and/or Licensee, or such other address as you may advise in writing to use, from time to time, of such replacement, the license for the replaced Content immediately terminates for any products that do not already exist, and this license automatically applies to the replacement Content.  The Licensee agrees not to use the replaced Content, or any Permitted Derivative Works, for future products and to take all reasonable steps to discontinue use of the replaced Content, or any Permitted Derivative Works, in products that already exist.
+          </li>
+          <li>
+            Upon notice from the Seller, or upon Licensee’s knowledge that any Content is subject to a threatened, potential or actual claim of infringement of another's right for which the Seller may be liable, the Licensee must immediately and at his/her own expense (i) stop using the Content; (ii) delete or remove the Content from his/ her premises, computer systems and storage (electronic or physical); and (iii) ensure that his/her clients, printers or ISPs do likewise. The Seller shall provide the Licensee with replacement Content free of charge,  subject to the other terms and conditions of this Agreement.
+          </li>
+        </ol>
+      Indemnity_html: >
+        Indemnity
+        <ol>
+          <li>
+            Each of the parties agrees to indemnify and hold Lobster, its shareholders, directors, officers, employees, agents and partners harmless from and against any third-party claim or cause of action, including reasonable attorneys' fees and court costs, arising, directly or indirectly, out of this Agreement or the provision of the Services by Lobster.
+          </li>
+        </ol>
+      Disputes_html: >
+        Disputes
+        <ol>
+          <li>
+            Each party agrees that this Agreement and any claim, dispute or controversy arising out of in connection with this Agreement or its subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with English law.
+          </li>
+          <li>
+            Any dispute or claim arising out of or in connection with such matters (including non-contractual disputes or claims) will be subject to the exclusive jurisdiction of the courts of England and Wales.
+          </li>
+        </ol>
+      General_html: >
+        General
+        <ol>
+          <li>
+            This Agreement is agreed between the parties. No person (other than Lobster IT Limited in respect of the indemnity in clause 8) shall have any rights under or connection with this Agreement under the Contracts (Rights of Third Parties) Act 1999.
+          </li>
+          <li>
+            If any court or competent authority decides that any term of this Agreement is held to be invalid, unlawful or unenforceable to any extent, such term shall, to that extent only, be severed from the remaining terms, which shall continue to be valid to the fullest extent permitted by law.
+          </li>
+          <li>
+            Headings are for reference purposes only and in no way define, limit, construe or describe the extent or scope of such section.
+          </li>
+        </ol>
+      ADULT_MODEL_RELEASE: "ADULT MODEL RELEASE"
+      MINOR_MODEL_RELEASE: "MINOR MODEL RELEASE"
+      PROPERTY_RELEASE: "PROPERTY RELEASE"
+
+    unavailable:
+      Sorry: "Sorry..."
+      We_are_running_some_works: "We are running some works and the service will be available shortly. Please come back soon, Lobster is missing you."
+
+    unsupported:
+      Sorry: "Sorry..."
+      Your_browser_is_not_supported: "Your browser is not supported! Please use one of the following browsers:"
+
+    wentwrong:
+      Sorry: "Sorry..."
+      Something_went_wrong_html: "Something went wrong.<br/>The problem may be temporary, <br/>please"
+      try_refreshing_the_page: "try refreshing the page"
+
+  user:
+    delete_account:
+      Please_describe_why_you_decided_to_delete_your_account: "Please, describe why you decided to delete your account"
+      Thank_you: "Thank you"
+
+    edit_profile:
+      Add_photo: 'Add a profile photo'
+      Edit_profile: "Edit Profile"
+      Save: "Save"
+      Your_Earnings: "Earnings"
+      Your_Purchases: "Go to Gallery"
+      Profile: "Profile"
+      Your_Purchases: "Your Purchases"
+      Delete_account: "Delete account"
+      E_mail: "E-mail"
+      Email_verified: "Email verified"
+      You_will_need_to_verify_this_e_mail_before_it_is_used_for_login_and_notifications: "You will need to verify this e-mail before it is used for login and notifications. Please check your mailbox for a confirmation link. Until then we use"
+      for_your_activities_at_Lobster: "for your activities at Lobster."
+      Add_password: "Add password"
+      Change_password: "Change password"
+      Instagram: "Instagram"
+      not_linked: "not linked"
+      instagram_tooltip: "You will now need to turn your account to public and use <span>#ilobsterit</span> tag when you post photos and videos that you want to appear at Lobster marketplace."
+      flickr_tooltip: "You will now need to turn your account to public and select photos for sale. Follow Sell content link in the top left of this page (to see and select your Flickr photos)."
+      Paypal_account: "Paypal account"
+      same_as_login_e_mail: "same as login e-mail"
+      Paypal_verified: "Paypal verified"
+      This_is_an_e_mail_you_normally_use_to_login_to_html: "This is an e-mail you normally use to login to <span>Paypal</span>. You will need to check your mailbox and follow the link to confirm it. If you don't have a <span>Paypal</span> account yet, your login e-mail above will be used to send payments. <span>Paypal</span> will inform you on any incoming funds and send you further instructions to set up an account with them."
+      Recieve_e_mail_notification_on_every_purchase_of_my_photo_or_video: "Receive e-mail notification on every purchase of my photo or video"
+      You_will_need_to_have_your_PayPal_account_set_to_accept_USD_currency: "You will need to have your PayPal account set to accept USD currency. This can be checked in your PayPal profile settings."
+      Flickr: "Flickr"
+      Name_on_license: "Name on license"
+      same_as_username: "same as username"
+      Your_personal_name_or_organization_will_appear_on_your_license: "Your personal name or organization will appear on your license e-mail once you make a purchase."
+      Close: "Close"
+      Add photo: "Add photo"
+      Upload_new_photo: "Upload new photo"
+      Delete_photo: "Delete photo"
+      Change_photo: "Change photo"
+      Save: "Save"
+      Preferable_size_is: "Preferable size is 118x118 px"
+      Current: "Current"
+      New: "New"
+      Re_type_new: "Re-type new"
+      Add: "Add"
+      Change: "Change"
+      Delete account: "Delete account"
+      Are_you_sure_want_to_delete_your_account: "Are you sure want to delete your account?"
+      Please_tell_us_why: "Please tell us why"
+      Once_you_delete_your_account_licenses_for_your_photos_and_videos: "Once you delete your account, licenses for your photos and videos will no longer be sold at Lobster marketplace."
+      Yes_delete_my_account: "Yes, delete my account"
+      Disconnect_account: "Disconnect account"
+      Are_you_sure_want_to_disconnect_your_Flickr_account: "Are you sure want to disconnect your Flickr account?"
+      Once_you_disconnect_your_account: "It may take up to 30 minutes for all your content to be deleted. Once you disconnect your account, the photos under this account will be removed from Lobster marketplace and no longer sold."
+      Username: "Username"
+
+  subscriptions:
+    show:
+      Sign_up: "Sign up"
+      Sign_in: "Sign in"
+
+  similar_search_errors:
+    incorrect_url: "Sorry, that URL doesn’t seem to be an image"
+    file_too_big: "Images should be less than 5MB."
+    image_too_small: "Please ensure that the image resolution is not less than 500 x 500"

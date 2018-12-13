@@ -1,0 +1,36 @@
+development:
+  clients:
+    default:
+      database: ilobster_staging
+      hosts:
+        - localhost:27017
+
+staging:
+  clients:
+    default:
+      database: ilobster_staging
+      hosts:
+        - <%= "#{ENV['MONGODB_ADDRESS']}:27017" %>
+      options:
+        pool_size: 20
+
+production:
+  clients:
+    default:
+      database: ilobster_production
+      hosts:
+        - <%= "#{ENV['LOBSTER_MONGODB_ADDRESS']}:27017" %>
+      options:
+        pool_size: 40
+
+test:
+  clients:
+    default:
+      database: ilobster_test
+      hosts:
+        - localhost:27017
+      options:
+        # In the test environment we lower the retries and retry interval to
+        # low amounts for fast failures.
+        max_retries: 1
+        retry_interval: 0
